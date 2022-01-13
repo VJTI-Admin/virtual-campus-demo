@@ -1,0 +1,2106 @@
+Exporter version: 2.93.4, Blender version: 2.93.5
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Work\WebDev\Babylon\test4\
+			processing texture venice_sunset_2k
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of mesh:  court
+		processing begun of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  floor
+		processing begun of material:  footpath front test
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+			processing texture test_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture test_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture test_occlusion_roughness_metallic
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture test_occlusion_roughness_metallic
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+			bake time:  0 min, 0.0154 secs
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  court.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  87
+		num normals        :  87
+		num tangents       :  0
+		num uvs            :  174
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  Cube.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  134
+		num normals        :  134
+		num tangents       :  0
+		num uvs            :  268
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  Cube.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  170
+		num normals        :  170
+		num tangents       :  0
+		num uvs            :  340
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  84
+	processing begun of mesh:  floors
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  320
+		num normals        :  320
+		num tangents       :  0
+		num uvs            :  640
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  156
+	processing begun of mesh:  Cube.004
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  being mirrored about
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  0
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Plane.008
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.017
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.011
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  58
+		num normals        :  58
+		num tangents       :  0
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.020
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.005
+		mesh is an instance of :  Cube.001.  Processing halted.
+	processing begun of mesh:  Cube.003
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  134
+		num normals        :  134
+		num tangents       :  0
+		num uvs            :  268
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  Cube.006
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  44
+		num normals        :  44
+		num tangents       :  0
+		num uvs            :  88
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  Cube.012
+		mesh is an instance of :  Cube.006.  Processing halted.
+	processing begun of mesh:  Cylinder.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  402
+		num normals        :  402
+		num tangents       :  0
+		num uvs            :  804
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  360
+	processing begun of node:  Empty
+	processing begun of mesh:  Plane.007
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  659
+		num normals        :  659
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  340
+	processing begun of mesh:  Plane.016
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.018
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.019
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Cube.037
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.009
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  143
+		num normals        :  143
+		num tangents       :  0
+		num uvs            :  286
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  56
+	processing begun of mesh:  Plane.011
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Plane.074
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Plane.085
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Plane.103
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  52
+		num normals        :  52
+		num tangents       :  0
+		num uvs            :  104
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  Plane.105
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.106
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Cube.007
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  264
+		num normals        :  264
+		num tangents       :  0
+		num uvs            :  528
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of node:  Empty.001
+	processing begun of mesh:  Cube.009
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  141
+		num normals        :  141
+		num tangents       :  0
+		num uvs            :  282
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  back wall
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  841
+		num normals        :  841
+		num tangents       :  0
+		num uvs            :  1682
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  358
+	processing begun of mesh:  Cube.042
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.066
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.003
+		processing begun of material:  cream main building
+			processing texture cream_building_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture cream_building_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.012
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cylinder
+		processing begun of material:  black
+		num positions      :  268
+		num normals        :  268
+		num tangents       :  0
+		num uvs            :  536
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  240
+	processing begun of mesh:  Plane.013
+		processing begun of material:  stage blue
+		num positions      :  122
+		num normals        :  122
+		num tangents       :  0
+		num uvs            :  244
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  128
+	processing begun of mesh:  Plane.025
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  248
+		num normals        :  248
+		num tangents       :  0
+		num uvs            :  496
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  Plane.027
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  292
+		num normals        :  292
+		num tangents       :  0
+		num uvs            :  584
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  118
+	processing begun of mesh:  Plane.028
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  204
+		num normals        :  204
+		num tangents       :  0
+		num uvs            :  408
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  116
+	processing begun of mesh:  Plane.029
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  124
+		num normals        :  124
+		num tangents       :  0
+		num uvs            :  248
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Plane.031
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  124
+		num normals        :  124
+		num tangents       :  0
+		num uvs            :  248
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Plane.032
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  260
+		num normals        :  260
+		num tangents       :  0
+		num uvs            :  520
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  Plane.035
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  584
+		num normals        :  584
+		num tangents       :  0
+		num uvs            :  1168
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  520
+	processing begun of mesh:  Plane.001
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.075
+		processing begun of material:  red roof
+		num positions      :  51
+		num normals        :  51
+		num tangents       :  0
+		num uvs            :  102
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  Plane.076
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  3
+		num normals        :  3
+		num tangents       :  0
+		num uvs            :  6
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1
+	processing begun of mesh:  Plane.077
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  300
+		num normals        :  300
+		num tangents       :  0
+		num uvs            :  600
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  120
+	processing begun of mesh:  Plane.081
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.087
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  131
+		num normals        :  131
+		num tangents       :  0
+		num uvs            :  262
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  52
+	processing begun of mesh:  Plane.088
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.089
+		mesh is an instance of :  Plane.088.  Processing halted.
+	processing begun of mesh:  Plane.090
+		mesh is an instance of :  Plane.088.  Processing halted.
+	processing begun of mesh:  Plane.091
+		mesh is an instance of :  Plane.088.  Processing halted.
+	processing begun of mesh:  Plane.092
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.096
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  bounds
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  70
+		num normals        :  70
+		num tangents       :  0
+		num uvs            :  140
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  Plane.036
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  staircase ramp
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  49
+		num normals        :  49
+		num tangents       :  0
+		num uvs            :  98
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  staircase ramp.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  27
+		num normals        :  27
+		num tangents       :  0
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  ramp hide
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ramp hide.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Cube.010
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  986
+		num normals        :  986
+		num tangents       :  0
+		num uvs            :  1972
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  408
+	processing begun of node:  Empty.002
+	processing begun of mesh:  Cube.014
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.013
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  1102
+		num normals        :  1102
+		num tangents       :  0
+		num uvs            :  2204
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  456
+	processing begun of node:  Empty.003
+	processing begun of node:  Empty.004
+	processing begun of node:  Empty.009
+	processing begun of mesh:  study space
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  coe
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  study space.003
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  study space.004
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Cube.040
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.041
+		mesh is an instance of :  Cube.040.  Processing halted.
+	processing begun of mesh:  Cube.043
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.045
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.046
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.047
+		mesh is an instance of :  Cube.045.  Processing halted.
+	processing begun of mesh:  Cube.008
+		mesh is an instance of :  Cube.040.  Processing halted.
+	processing begun of mesh:  Cube.062
+		mesh is an instance of :  Cube.040.  Processing halted.
+	processing begun of mesh:  Cube.063
+		mesh is an instance of :  Cube.040.  Processing halted.
+	processing begun of mesh:  Cube.064
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.065
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  gate pillar big
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  700
+		num normals        :  700
+		num tangents       :  0
+		num uvs            :  1400
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  280
+	processing begun of mesh:  Cube.018
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  58
+		num normals        :  58
+		num tangents       :  0
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of node:  Empty.005
+	processing begun of mesh:  Plane
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  3997
+		num normals        :  3997
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1978
+	processing begun of mesh:  Circle
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  224
+		num normals        :  224
+		num tangents       :  0
+		num uvs            :  448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  312
+	processing begun of mesh:  Circle.001
+		mesh is an instance of :  Circle.  Processing halted.
+	processing begun of mesh:  Plane.033
+		mesh is an instance of :  Plane.  Processing halted.
+	processing begun of mesh:  Cube.020
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		processing begun of multimaterial:  dec.Multimaterial#0
+		num positions      :  6015
+		num normals        :  6015
+		num tangents       :  0
+		num uvs            :  12030
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5168
+	processing begun of mesh:  Cube.019
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.021
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.022
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.023
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.024
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.025
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.026
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.027
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.030
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.044
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#1
+		num positions      :  97
+		num normals        :  97
+		num tangents       :  0
+		num uvs            :  194
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Cube.052
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#2
+		num positions      :  1995
+		num normals        :  1995
+		num tangents       :  0
+		num uvs            :  3990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1197
+	processing begun of mesh:  Cube.053
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.054
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.057
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#3
+		num positions      :  97
+		num normals        :  97
+		num tangents       :  0
+		num uvs            :  194
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Cube.058
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.059
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.060
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.051
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.061
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.068
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#4
+		num positions      :  368
+		num normals        :  368
+		num tangents       :  0
+		num uvs            :  736
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  292
+	processing begun of mesh:  Cube.069
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.070
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.067
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Plane.021
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		processing begun of multimaterial:  dec.Multimaterial#5
+		num positions      :  6373
+		num normals        :  6373
+		num tangents       :  0
+		num uvs            :  12746
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4526
+	processing begun of mesh:  Plane.024
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.026
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.037
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.038
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.039
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.040
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.041
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.042
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.043
+		mesh is an instance of :  Plane.021.  Processing halted.
+	processing begun of mesh:  Plane.022
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  312
+		num normals        :  312
+		num tangents       :  0
+		num uvs            :  624
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  144
+	processing begun of mesh:  Cube.055
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.034
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  107
+		num normals        :  107
+		num tangents       :  0
+		num uvs            :  214
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  52
+	processing begun of mesh:  Cube.028
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  203
+		num normals        :  203
+		num tangents       :  0
+		num uvs            :  406
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  84
+	processing begun of mesh:  Cube.029
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  435
+		num normals        :  435
+		num tangents       :  0
+		num uvs            :  870
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  180
+	processing begun of mesh:  Plane.080
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  102
+		num normals        :  102
+		num tangents       :  0
+		num uvs            :  204
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  40
+	processing begun of mesh:  Cube.031
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#6
+		num positions      :  25105
+		num normals        :  25105
+		num tangents       :  0
+		num uvs            :  50210
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  19840
+	processing begun of mesh:  Cube.032
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#7
+		num positions      :  384
+		num normals        :  384
+		num tangents       :  0
+		num uvs            :  768
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  Cube.033
+		mesh is an instance of :  Cube.031.  Processing halted.
+	processing begun of mesh:  Cube.034
+		mesh is an instance of :  Cube.032.  Processing halted.
+	processing begun of mesh:  Cube.035
+		mesh is an instance of :  Cube.031.  Processing halted.
+	processing begun of mesh:  Cube.036
+		mesh is an instance of :  Cube.032.  Processing halted.
+	processing begun of mesh:  Cylinder.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  621
+		num normals        :  621
+		num tangents       :  0
+		num uvs            :  1242
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  624
+	processing begun of mesh:  Cylinder.003
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.004
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.005
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.006
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Plane.044
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.046
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  124
+		num normals        :  124
+		num tangents       :  0
+		num uvs            :  248
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Plane.048
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  96
+		num normals        :  96
+		num tangents       :  0
+		num uvs            :  192
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  40
+	processing begun of mesh:  Plane.049
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.045
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.050
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.039
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  870
+		num normals        :  870
+		num tangents       :  0
+		num uvs            :  1740
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  360
+	processing begun of mesh:  Plane.051
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.053
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.055
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.054
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.056
+		mesh is an instance of :  Plane.055.  Processing halted.
+	processing begun of mesh:  Plane.069
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.070
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.056
+		processing begun of material:  temp trans
+		processing begun of material:  cream main building
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  cream main building
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#8
+		num positions      :  15696
+		num normals        :  15696
+		num tangents       :  0
+		num uvs            :  31392
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12400
+	processing begun of mesh:  Plane.098
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.099
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.005
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.006
+		mesh is an instance of :  Plane.005.  Processing halted.
+	processing begun of mesh:  Plane.100
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.101
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.104
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.052
+		mesh is an instance of :  Plane.055.  Processing halted.
+	processing begun of mesh:  Plane.107
+		mesh is an instance of :  Plane.069.  Processing halted.
+	processing begun of mesh:  Plane.108
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  0
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.109
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.110
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Cube.016
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  103
+		num normals        :  103
+		num tangents       :  0
+		num uvs            :  206
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  44
+	processing begun of mesh:  Cube.017
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  45
+		num normals        :  45
+		num tangents       :  0
+		num uvs            :  90
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  canteen window
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#9
+		num positions      :  426
+		num normals        :  426
+		num tangents       :  0
+		num uvs            :  852
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  214
+	processing begun of mesh:  canteen window.001
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.002
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.003
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.005
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.006
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.004
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.007
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.008
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.009
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.010
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.011
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.012
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.013
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.014
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.015
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  Plane.062
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.063
+		mesh is an instance of :  Plane.062.  Processing halted.
+	processing begun of mesh:  canteen window.124
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.125
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.126
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.127
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.128
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.129
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  Plane.058
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#10
+		num positions      :  260
+		num normals        :  260
+		num tangents       :  0
+		num uvs            :  520
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  142
+	processing begun of mesh:  Plane.057
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.059
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.060
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.061
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.064
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.065
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.066
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.067
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Plane.068
+		mesh is an instance of :  Plane.058.  Processing halted.
+	processing begun of mesh:  Cube.015
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.076
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.077
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.078
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.079
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  canteen window.016
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.017
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.018
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.019
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.020
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.021
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.022
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.023
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.024
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.025
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.026
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.027
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.029
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#11
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  canteen window.030
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.031
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.032
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.033
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.034
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.035
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.036
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.037
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.038
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.039
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.040
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.100
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.101
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.102
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.103
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.104
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.105
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.106
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.107
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.108
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.109
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.110
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.111
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.112
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.113
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.114
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.115
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.116
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.117
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.118
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.119
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.120
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.121
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.122
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.123
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.041
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.042
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.043
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.044
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.045
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  main building top
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.050
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.051
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.052
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.053
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.054
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.055
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.056
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.057
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.058
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.059
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  Plane.047
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  158
+		num normals        :  158
+		num tangents       :  0
+		num uvs            :  316
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  80
+	processing begun of mesh:  Plane.072
+		processing begun of material:  red roof
+		registered as also a user of material:  red roof
+		num positions      :  88
+		num normals        :  88
+		num tangents       :  0
+		num uvs            :  176
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  Plane.073
+		processing begun of material:  red roof
+		registered as also a user of material:  red roof
+		num positions      :  83
+		num normals        :  83
+		num tangents       :  0
+		num uvs            :  166
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  Cube.048
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  176
+		num normals        :  176
+		num tangents       :  0
+		num uvs            :  352
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  92
+	processing begun of mesh:  Circle.002
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  86
+		num normals        :  86
+		num tangents       :  0
+		num uvs            :  172
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dome
+		processing begun of material:  red roof
+		registered as also a user of material:  red roof
+		num positions      :  140
+		num normals        :  140
+		num tangents       :  0
+		num uvs            :  280
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  236
+	processing begun of mesh:  Cube.049
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  114
+		num normals        :  114
+		num tangents       :  0
+		num uvs            :  228
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  92
+	processing begun of mesh:  Cube.050
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  114
+		num normals        :  114
+		num tangents       :  0
+		num uvs            :  228
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  92
+	processing begun of mesh:  dome window.001
+		processing begun of material:  temp trans
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#12
+		num positions      :  364
+		num normals        :  364
+		num tangents       :  0
+		num uvs            :  728
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  328
+	processing begun of mesh:  canteen window.046
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.060
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.061
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.062
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.063
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.064
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.065
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.066
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.067
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.068
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.069
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.070
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.071
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.072
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.073
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.074
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.075
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.078
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.079
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.080
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.081
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.082
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.083
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.084
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.076
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.077
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.096
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.097
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.098
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.099
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  back wall.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  723
+		num normals        :  723
+		num tangents       :  0
+		num uvs            :  1446
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  320
+	processing begun of mesh:  canteen window.047
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.048
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.049
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.085
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.088
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.089
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.090
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.091
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  Plane.082
+		mesh is an instance of :  Plane.062.  Processing halted.
+	processing begun of mesh:  Plane.083
+		mesh is an instance of :  Plane.062.  Processing halted.
+	processing begun of mesh:  canteen window.086
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.087
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.092
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.093
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.094
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  canteen window.095
+		mesh is an instance of :  canteen window.  Processing halted.
+	processing begun of mesh:  Plane.084
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  90
+		num normals        :  90
+		num tangents       :  0
+		num uvs            :  180
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  Plane.086
+		mesh is an instance of :  Plane.062.  Processing halted.
+	processing begun of mesh:  Plane.014
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  432
+		num normals        :  432
+		num tangents       :  0
+		num uvs            :  864
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  180
+	processing begun of mesh:  Plane.015
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  362
+		num normals        :  362
+		num tangents       :  0
+		num uvs            :  724
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  168
+	processing begun of mesh:  Plane.004
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  146
+		num normals        :  146
+		num tangents       :  0
+		num uvs            :  292
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  56
+	processing begun of mesh:  Plane.010
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  1222
+		num normals        :  1222
+		num tangents       :  0
+		num uvs            :  2444
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  590
+	processing begun of mesh:  Plane.030
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  230
+		num normals        :  230
+		num tangents       :  0
+		num uvs            :  460
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  176
+	processing begun of mesh:  Plane.071
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  1302
+		num normals        :  1302
+		num tangents       :  0
+		num uvs            :  2604
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  568
+	processing begun of mesh:  Plane.078
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  92
+		num normals        :  92
+		num tangents       :  0
+		num uvs            :  184
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Plane.093
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.094
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  228
+		num normals        :  228
+		num tangents       :  0
+		num uvs            :  456
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  200
+	processing begun of mesh:  Plane.095
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.097
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.102
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.038
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.084
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.085
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.086
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.087
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.088
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cylinder.009
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  582
+		num normals        :  582
+		num tangents       :  0
+		num uvs            :  1164
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  400
+	processing begun of mesh:  Cylinder.008
+		mesh is an instance of :  Cylinder.009.  Processing halted.
+	processing begun of mesh:  Cylinder.010
+		mesh is an instance of :  Cylinder.009.  Processing halted.
+	processing begun of mesh:  Cylinder.011
+		mesh is an instance of :  Cylinder.009.  Processing halted.
+	processing begun of mesh:  Cube.075
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.080
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.081
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.082
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.083
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  ecell
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+========= Writing of JSON file started =========
+	writing mesh:  court
+	writing mesh:  floor
+	writing mesh:  court.001
+	writing mesh:  Cube
+	writing mesh:  Cube.001
+	writing mesh:  Cube.002
+	writing mesh:  floors
+	writing mesh:  Cube.004
+	writing mesh:  being mirrored about
+	writing mesh:  Plane.008
+	writing mesh:  Plane.017
+	writing mesh:  Cube.011
+	writing mesh:  Plane.020
+	writing mesh:  Cube.003
+	writing mesh:  Cube.006
+	writing mesh:  Cylinder.001
+	writing mesh:  Plane.007
+	writing mesh:  Cube.037
+	writing mesh:  Plane.009
+	writing mesh:  Plane.011
+	writing mesh:  Plane.074
+	writing mesh:  Plane.085
+	writing mesh:  Plane.103
+	writing mesh:  Plane.105
+	writing mesh:  Plane.106
+	writing mesh:  Cube.007
+	writing mesh:  Cube.009
+	writing mesh:  back wall
+	writing mesh:  Cube.042
+	writing mesh:  Cube.066
+	writing mesh:  Plane.003
+	writing mesh:  Plane.012
+	writing mesh:  Cylinder
+	writing mesh:  Plane.013
+	writing mesh:  Plane.025
+	writing mesh:  Plane.027
+	writing mesh:  Plane.028
+	writing mesh:  Plane.029
+	writing mesh:  Plane.031
+	writing mesh:  Plane.032
+	writing mesh:  Plane.035
+	writing mesh:  Plane.001
+	writing mesh:  Plane.075
+	writing mesh:  Plane.076
+	writing mesh:  Plane.077
+	writing mesh:  Plane.081
+	writing mesh:  Plane.087
+	writing mesh:  Plane.088
+	writing mesh:  Plane.092
+	writing mesh:  Plane.096
+	writing mesh:  bounds
+	writing mesh:  Plane.036
+	writing mesh:  staircase ramp
+	writing mesh:  staircase ramp.001
+	writing mesh:  ramp hide
+	writing mesh:  ramp hide.001
+	writing mesh:  Cube.010
+	writing mesh:  Cube.014
+	writing mesh:  Cube.013
+	writing mesh:  study space
+	writing mesh:  coe
+	writing mesh:  study space.003
+	writing mesh:  study space.004
+	writing mesh:  Cube.040
+	writing mesh:  Cube.043
+	writing mesh:  Cube.045
+	writing mesh:  Cube.046
+	writing mesh:  Cube.064
+	writing mesh:  Cube.065
+	writing mesh:  gate pillar big
+	writing mesh:  Cube.018
+	writing mesh:  Plane
+	writing mesh:  Circle
+	writing mesh:  Cube.020
+	writing mesh:  Cube.044
+	writing mesh:  Cube.052
+	writing mesh:  Cube.057
+	writing mesh:  Cube.068
+	writing mesh:  Plane.021
+	writing mesh:  Plane.022
+	writing mesh:  Cube.055
+	writing mesh:  Plane.034
+	writing mesh:  Cube.028
+	writing mesh:  Cube.029
+	writing mesh:  Plane.080
+	writing mesh:  Cube.031
+	writing mesh:  Cube.032
+	writing mesh:  Cylinder.002
+	writing mesh:  Plane.044
+	writing mesh:  Plane.046
+	writing mesh:  Plane.048
+	writing mesh:  Plane.049
+	writing mesh:  Plane.045
+	writing mesh:  Plane.050
+	writing mesh:  Cube.039
+	writing mesh:  Plane.051
+	writing mesh:  Plane.053
+	writing mesh:  Plane.055
+	writing mesh:  Plane.054
+	writing mesh:  Plane.069
+	writing mesh:  Plane.070
+	writing mesh:  Cube.056
+	writing mesh:  Plane.098
+	writing mesh:  Plane.099
+	writing mesh:  Plane.002
+	writing mesh:  Plane.005
+	writing mesh:  Plane.100
+	writing mesh:  Plane.101
+	writing mesh:  Plane.104
+	writing mesh:  Plane.108
+	writing mesh:  Plane.109
+	writing mesh:  Plane.110
+	writing mesh:  Cube.016
+	writing mesh:  Cube.017
+	writing mesh:  canteen window
+	writing mesh:  Plane.062
+	writing mesh:  Plane.058
+	writing mesh:  canteen window.029
+	writing mesh:  Plane.047
+	writing mesh:  Plane.072
+	writing mesh:  Plane.073
+	writing mesh:  Cube.048
+	writing mesh:  Circle.002
+	writing mesh:  dome
+	writing mesh:  Cube.049
+	writing mesh:  Cube.050
+	writing mesh:  dome window.001
+	writing mesh:  back wall.001
+	writing mesh:  Plane.084
+	writing mesh:  Plane.014
+	writing mesh:  Plane.015
+	writing mesh:  Plane.004
+	writing mesh:  Plane.010
+	writing mesh:  Plane.030
+	writing mesh:  Plane.071
+	writing mesh:  Plane.078
+	writing mesh:  Plane.093
+	writing mesh:  Plane.094
+	writing mesh:  Plane.095
+	writing mesh:  Plane.097
+	writing mesh:  Plane.102
+	writing mesh:  Cube.038
+	writing mesh:  Cylinder.009
+	writing mesh:  ecell
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 10.2103 secs
