@@ -33,7 +33,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  metallicTexture, mapped using: "UVMap"
 			processing texture test_occlusion_roughness_metallic
 				texture type:  value not meaningful 2, mapped using: "UVMap"
-			bake time:  0 min, 0.0154 secs
+			bake time:  0 min, 0.0107 secs
 		num positions      :  4
 		num normals        :  4
 		num tangents       :  0
@@ -41,16 +41,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  court.001
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  31
-		num normals        :  31
-		num tangents       :  0
-		num uvs            :  62
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
 	processing begun of mesh:  Cube
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -222,36 +212,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  56
-	processing begun of mesh:  Plane.011
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  26
-		num normals        :  26
-		num tangents       :  0
-		num uvs            :  52
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  10
-	processing begun of mesh:  Plane.074
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  21
-		num normals        :  21
-		num tangents       :  0
-		num uvs            :  42
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  8
-	processing begun of mesh:  Plane.085
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  21
-		num normals        :  21
-		num tangents       :  0
-		num uvs            :  42
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  8
 	processing begun of mesh:  Plane.103
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -272,7 +232,24 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  12
-	processing begun of mesh:  Plane.106
+	processing begun of mesh:  Plane.011
+		processing begun of material:  cream main building
+			processing texture cream_building_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture cream_building_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.074
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
 		num positions      :  21
@@ -282,6 +259,147 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
+	processing begun of mesh:  Plane.112
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.111
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#0
+		num positions      :  1489
+		num normals        :  1489
+		num tangents       :  0
+		num uvs            :  2978
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  826
+	processing begun of mesh:  Plane.113
+		mesh is an instance of :  Plane.111.  Processing halted.
+	processing begun of mesh:  Plane.114
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.115
+		mesh is an instance of :  Plane.114.  Processing halted.
+	processing begun of mesh:  Cube.089
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.090
+		mesh is an instance of :  Cube.089.  Processing halted.
+	processing begun of mesh:  Cube.091
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  canteen window.130
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#1
+		num positions      :  426
+		num normals        :  426
+		num tangents       :  0
+		num uvs            :  852
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  214
+	processing begun of mesh:  canteen window.131
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  Cube.092
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  canteen window.132
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.133
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.134
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.135
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.136
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.137
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.138
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.139
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  Cube.095
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.096
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.097
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  155
+		num normals        :  155
+		num tangents       :  0
+		num uvs            :  310
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  Cube.098
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.099
+		mesh is an instance of :  Cube.095.  Processing halted.
 	processing begun of mesh:  Cube.007
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -333,16 +451,19 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
+	processing begun of mesh:  Plane.085
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
 	processing begun of mesh:  Plane.003
 		processing begun of material:  cream main building
-			processing texture cream_building_normal
-				texture type:  bumpTexture, mapped using: "UVMap"
-			processing texture cream_building_basecolor
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture cream_building_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture cream_building_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
+		registered as also a user of material:  cream main building
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -378,6 +499,46 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  128
+	processing begun of mesh:  court.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  Plane.116
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  302
+		num normals        :  302
+		num tangents       :  0
+		num uvs            :  604
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  120
+	processing begun of mesh:  court.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  52
+		num normals        :  52
+		num tangents       :  0
+		num uvs            :  104
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  Plane.117
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
 	processing begun of mesh:  Plane.025
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -603,6 +764,26 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
+	processing begun of mesh:  being mirrored about.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Cube.100
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
 	processing begun of mesh:  Cube.010
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -678,27 +859,11 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  10
 	processing begun of mesh:  Cube.040
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  29
-		num normals        :  29
-		num tangents       :  0
-		num uvs            :  58
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
+		mesh is an instance of :  Cube.089.  Processing halted.
 	processing begun of mesh:  Cube.041
-		mesh is an instance of :  Cube.040.  Processing halted.
+		mesh is an instance of :  Cube.089.  Processing halted.
 	processing begun of mesh:  Cube.043
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  29
-		num normals        :  29
-		num tangents       :  0
-		num uvs            :  58
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
+		mesh is an instance of :  Cube.091.  Processing halted.
 	processing begun of mesh:  Cube.045
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -722,11 +887,11 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cube.047
 		mesh is an instance of :  Cube.045.  Processing halted.
 	processing begun of mesh:  Cube.008
-		mesh is an instance of :  Cube.040.  Processing halted.
+		mesh is an instance of :  Cube.089.  Processing halted.
 	processing begun of mesh:  Cube.062
-		mesh is an instance of :  Cube.040.  Processing halted.
+		mesh is an instance of :  Cube.089.  Processing halted.
 	processing begun of mesh:  Cube.063
-		mesh is an instance of :  Cube.040.  Processing halted.
+		mesh is an instance of :  Cube.089.  Processing halted.
 	processing begun of mesh:  Cube.064
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -798,7 +963,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  windows backing grey
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
-		processing begun of multimaterial:  dec.Multimaterial#0
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#2
 		num positions      :  6015
 		num normals        :  6015
 		num tangents       :  0
@@ -831,7 +997,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#1
+		processing begun of multimaterial:  dec.Multimaterial#3
 		num positions      :  97
 		num normals        :  97
 		num tangents       :  0
@@ -846,7 +1012,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#2
+		processing begun of multimaterial:  dec.Multimaterial#4
 		num positions      :  1995
 		num normals        :  1995
 		num tangents       :  0
@@ -865,7 +1031,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#3
+		processing begun of multimaterial:  dec.Multimaterial#5
 		num positions      :  97
 		num normals        :  97
 		num tangents       :  0
@@ -890,7 +1056,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#4
+		processing begun of multimaterial:  dec.Multimaterial#6
 		num positions      :  368
 		num normals        :  368
 		num tangents       :  0
@@ -904,6 +1070,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  Cube.052.  Processing halted.
 	processing begun of mesh:  Cube.067
 		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.093
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.094
+		mesh is an instance of :  Cube.052.  Processing halted.
 	processing begun of mesh:  Plane.021
 		processing begun of material:  windows backing grey
 		processing begun of material:  temp trans
@@ -911,7 +1081,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
-		processing begun of multimaterial:  dec.Multimaterial#5
+		processing begun of multimaterial:  dec.Multimaterial#7
 		num positions      :  6373
 		num normals        :  6373
 		num tangents       :  0
@@ -1004,7 +1174,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#6
+		processing begun of multimaterial:  dec.Multimaterial#8
 		num positions      :  25105
 		num normals        :  25105
 		num tangents       :  0
@@ -1019,7 +1189,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#7
+		processing begun of multimaterial:  dec.Multimaterial#9
 		num positions      :  384
 		num normals        :  384
 		num tangents       :  0
@@ -1192,7 +1362,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#8
+		processing begun of multimaterial:  dec.Multimaterial#10
 		num positions      :  15696
 		num normals        :  15696
 		num tangents       :  0
@@ -1326,79 +1496,70 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  20
+	processing begun of mesh:  Plane.106
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
 	processing begun of mesh:  canteen window
-		processing begun of material:  windows backing grey
-		processing begun of material:  temp trans
-		registered as also a user of material:  windows backing grey
-		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#9
-		num positions      :  426
-		num normals        :  426
-		num tangents       :  0
-		num uvs            :  852
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  214
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.001
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.002
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.003
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.005
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.006
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.004
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.007
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.008
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.009
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.010
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.011
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.012
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.013
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.014
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.015
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.062
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  31
-		num normals        :  31
-		num tangents       :  0
-		num uvs            :  62
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
+		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  Plane.063
-		mesh is an instance of :  Plane.062.  Processing halted.
+		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  canteen window.124
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.125
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.126
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.127
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.128
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.129
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.058
 		processing begun of material:  windows backing grey
 		processing begun of material:  temp trans
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#10
+		processing begun of multimaterial:  dec.Multimaterial#11
 		num positions      :  260
 		num normals        :  260
 		num tangents       :  0
@@ -1435,35 +1596,35 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cube.079
 		mesh is an instance of :  Cube.068.  Processing halted.
 	processing begun of mesh:  canteen window.016
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.017
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.018
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.019
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.020
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.021
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.022
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.023
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.024
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.025
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.026
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.027
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.029
 		processing begun of material:  windows backing grey
 		processing begun of material:  temp trans
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#11
+		processing begun of multimaterial:  dec.Multimaterial#12
 		num positions      :  64
 		num normals        :  64
 		num tangents       :  0
@@ -1494,29 +1655,29 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  canteen window.040
 		mesh is an instance of :  canteen window.029.  Processing halted.
 	processing begun of mesh:  canteen window.100
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.101
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.102
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.103
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.104
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.105
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.106
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.107
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.108
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.109
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.110
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.111
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.112
 		mesh is an instance of :  canteen window.029.  Processing halted.
 	processing begun of mesh:  canteen window.113
@@ -1542,37 +1703,37 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  canteen window.123
 		mesh is an instance of :  canteen window.029.  Processing halted.
 	processing begun of mesh:  canteen window.041
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.042
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.043
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.044
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.045
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  main building top
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.050
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.051
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.052
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.053
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.054
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.055
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.056
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.057
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.058
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.059
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.047
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -1658,7 +1819,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#12
+		processing begun of multimaterial:  dec.Multimaterial#13
 		num positions      :  364
 		num normals        :  364
 		num tangents       :  0
@@ -1667,107 +1828,107 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  328
 	processing begun of mesh:  canteen window.046
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.060
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.061
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.062
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.063
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.064
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.065
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.066
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.067
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.068
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.069
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.070
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.071
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.072
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.073
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.074
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.075
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.078
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.079
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.080
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.081
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.082
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.083
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.084
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.076
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.077
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.096
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.097
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.098
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.099
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  back wall.001
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
-		num positions      :  723
-		num normals        :  723
+		num positions      :  718
+		num normals        :  718
 		num tangents       :  0
-		num uvs            :  1446
+		num uvs            :  1436
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
 	processing begun of mesh:  canteen window.047
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.048
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.049
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.085
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.088
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.089
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.090
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.091
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.082
-		mesh is an instance of :  Plane.062.  Processing halted.
+		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  Plane.083
-		mesh is an instance of :  Plane.062.  Processing halted.
+		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  canteen window.086
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.087
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.092
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.093
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.094
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.095
-		mesh is an instance of :  canteen window.  Processing halted.
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.084
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -1779,7 +1940,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  36
 	processing begun of mesh:  Plane.086
-		mesh is an instance of :  Plane.062.  Processing halted.
+		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  Plane.014
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -1813,10 +1974,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.010
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  1222
-		num normals        :  1222
+		num positions      :  1217
+		num normals        :  1217
 		num tangents       :  0
-		num uvs            :  2444
+		num uvs            :  2434
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  590
@@ -1959,7 +2120,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 ========= Writing of JSON file started =========
 	writing mesh:  court
 	writing mesh:  floor
-	writing mesh:  court.001
 	writing mesh:  Cube
 	writing mesh:  Cube.001
 	writing mesh:  Cube.002
@@ -1976,21 +2136,35 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.007
 	writing mesh:  Cube.037
 	writing mesh:  Plane.009
-	writing mesh:  Plane.011
-	writing mesh:  Plane.074
-	writing mesh:  Plane.085
 	writing mesh:  Plane.103
 	writing mesh:  Plane.105
-	writing mesh:  Plane.106
+	writing mesh:  Plane.011
+	writing mesh:  Plane.074
+	writing mesh:  Plane.112
+	writing mesh:  Plane.111
+	writing mesh:  Plane.114
+	writing mesh:  Cube.089
+	writing mesh:  Cube.091
+	writing mesh:  canteen window.130
+	writing mesh:  Cube.092
+	writing mesh:  Cube.095
+	writing mesh:  Cube.096
+	writing mesh:  Cube.097
+	writing mesh:  Cube.098
 	writing mesh:  Cube.007
 	writing mesh:  Cube.009
 	writing mesh:  back wall
 	writing mesh:  Cube.042
 	writing mesh:  Cube.066
+	writing mesh:  Plane.085
 	writing mesh:  Plane.003
 	writing mesh:  Plane.012
 	writing mesh:  Cylinder
 	writing mesh:  Plane.013
+	writing mesh:  court.001
+	writing mesh:  Plane.116
+	writing mesh:  court.002
+	writing mesh:  Plane.117
 	writing mesh:  Plane.025
 	writing mesh:  Plane.027
 	writing mesh:  Plane.028
@@ -2013,6 +2187,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  staircase ramp.001
 	writing mesh:  ramp hide
 	writing mesh:  ramp hide.001
+	writing mesh:  being mirrored about.001
+	writing mesh:  Cube.100
 	writing mesh:  Cube.010
 	writing mesh:  Cube.014
 	writing mesh:  Cube.013
@@ -2020,8 +2196,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  coe
 	writing mesh:  study space.003
 	writing mesh:  study space.004
-	writing mesh:  Cube.040
-	writing mesh:  Cube.043
 	writing mesh:  Cube.045
 	writing mesh:  Cube.046
 	writing mesh:  Cube.064
@@ -2071,8 +2245,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.110
 	writing mesh:  Cube.016
 	writing mesh:  Cube.017
-	writing mesh:  canteen window
-	writing mesh:  Plane.062
+	writing mesh:  Plane.106
 	writing mesh:  Plane.058
 	writing mesh:  canteen window.029
 	writing mesh:  Plane.047
@@ -2103,4 +2276,4 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  ecell
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 10.2103 secs
+elapsed time:  0 min, 5.326 secs
