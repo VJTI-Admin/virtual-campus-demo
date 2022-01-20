@@ -1965,10 +1965,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  back wall.001
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  720
-		num normals        :  720
+		num positions      :  722
+		num normals        :  722
 		num tangents       :  0
-		num uvs            :  1440
+		num uvs            :  1444
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
@@ -2300,31 +2300,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cylinder.017
 		mesh is an instance of :  Cylinder.009.  Processing halted.
 	processing begun of node:  Empty.007
-	processing begun of mesh:  statue
-		processing begun of material:  TextureAtlas_1001
-		processing begun of material:  statue
-		processing begun of material:  TextureAtlas_1003
-		processing begun of material:  TextureAtlas_1004
-		processing begun of material:  TextureAtlas_1005
-			processing texture texture_1001
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture texture_1002
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture texture_1003
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture texture_1004
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture texture_1005
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#15
-		num positions      :  224395
-		num normals        :  224395
-		num tangents       :  0
-		num uvs            :  448790
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  135769
-		WARNING: # of 0 area faces found:  7040
 	processing begun of mesh:  dias
 		processing begun of material:  black
 		registered as also a user of material:  black
@@ -2366,6 +2341,31 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  220
+	processing begun of mesh:  statue
+		processing begun of material:  TextureAtlas_1001
+		processing begun of material:  TextureAtlas_1002.001
+		processing begun of material:  TextureAtlas_1003
+		processing begun of material:  TextureAtlas_1004
+		processing begun of material:  TextureAtlas_1005
+			processing texture texture_1001
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture texture_1002
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture texture_1003
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture texture_1004
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture texture_1005
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#15
+		num positions      :  102352
+		num normals        :  102352
+		num tangents       :  0
+		num uvs            :  204704
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54306
+		WARNING: # of 0 area faces found:  6459
 ========= Writing of JSON file started =========
 	writing mesh:  court
 	writing mesh:  floor
@@ -2537,10 +2537,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Cylinder.009
 	writing mesh:  Cube.103
 	writing mesh:  Cylinder.012
-	writing mesh:  statue
 	writing mesh:  dias
 	writing mesh:  ecell
 	writing mesh:  button
+	writing mesh:  statue
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 29.9815 secs
+elapsed time:  0 min, 17.0006 secs
