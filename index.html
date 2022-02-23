@@ -56,7 +56,7 @@
             
             //document.write(scene.meshes[2].checkCollisions)
             //console.log(scene.meshes[2])
-            //document.write("404");
+            
 
 
 
@@ -73,7 +73,7 @@
 
             //THIS
             // Need a free camera for collisions
-            var camera = new BABYLON.FreeCamera("FreeCamera", new BABYLON.Vector3(0, 0.6, 54.6), scene); //middle one is z up.  //(0, 0.6, 54) for outside main building  
+            var camera = new BABYLON.FreeCamera("FreeCamera", new BABYLON.Vector3(0, 0.6, 0), scene); //middle one is z up.  //(0, 0.6, 54.6) for outside main building  
             camera.attachControl(canvas, true);
 
             //camera.inputs.addMouseWheel();
@@ -119,8 +119,13 @@
             scene.meshes.forEach(function(m) {
                 //document.write(m.name);
                 //document.write("\n\n\n");
-                if (m.name == "button"){
-                    test_mesh = m;
+                if (m.name.startsWith("button")){
+                    if (m.name=="button"){
+                        test_mesh = m;
+                    }
+                    else if (m.name=="button.001" ){
+                        audi_entrance = m;
+                    }
                     
                     
                     m.isPickable = true;
@@ -133,13 +138,30 @@
             });
 
             //document.write(test_mesh.name);
+
+            //JOIN MEETING
             test_mesh.actionManager = new BABYLON.ActionManager(scene);
             test_mesh.actionManager.registerAction(
                 new BABYLON.ExecuteCodeAction(
                     BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
                     function NewTab() {
+                        
                         window.open(
-                          "https://zoom.us/", "_blank");
+                          "https://zoom.us/", "_blank"); //https://zoom.us/
+                    }
+                )
+            );
+
+            
+            //ENTER AUDI
+            audi_entrance.actionManager = new BABYLON.ActionManager(scene);
+            audi_entrance.actionManager.registerAction(
+                new BABYLON.ExecuteCodeAction(
+                    BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
+                    function NewTab() {
+                        
+                        window.open(
+                          "http://localhost:8000/audi1.html", "_blank"); //https://zoom.us/
                     }
                 )
             );

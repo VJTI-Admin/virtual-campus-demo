@@ -9,10 +9,66 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  D:\Work\WebDev\Babylon\test5\
+		Texture directory   :  D:\Work\WebDev\Babylon\test8\
 			processing texture venice_sunset_2k
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of mesh:  Text
+		processing begun of material:  temp trans
+		num positions      :  39
+		num normals        :  39
+		num tangents       :  0
+		num uvs            :  78
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26
+	processing begun of mesh:  Plane.142
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  604
+		num normals        :  604
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  272
+	processing begun of mesh:  Plane.143
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  2073
+		num normals        :  2073
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1028
+	processing begun of mesh:  Plane.144
+		processing begun of material:  grey ground
+			processing texture grey_ground_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture grey_ground_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture grey_ground_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture grey_ground_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  19
+	processing begun of mesh:  Plane.145
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  13
 	processing begun of mesh:  court
 		processing begun of material:  bbcourt
 			processing texture bbcourt_no_logo2
@@ -43,14 +99,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  6
 	processing begun of mesh:  floor.001
 		processing begun of material:  grey ground
-			processing texture grey_ground_normal
-				texture type:  bumpTexture, mapped using: "UVMap"
-			processing texture grey_ground_basecolor
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture grey_ground_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture grey_ground_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
+		registered as also a user of material:  grey ground
 		num positions      :  4
 		num normals        :  4
 		num tangents       :  0
@@ -60,6 +109,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  2
 	processing begun of mesh:  Cube
 		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
 		num positions      :  87
 		num normals        :  87
 		num tangents       :  0
@@ -95,8 +145,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  84
 	processing begun of mesh:  floors
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  320
 		num normals        :  320
 		num tangents       :  0
@@ -135,8 +185,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.017
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -155,8 +205,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Plane.020
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -200,8 +250,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  360
 	processing begun of node:  Empty
 	processing begun of mesh:  Plane.007
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  black
 		num positions      :  659
 		num normals        :  659
 		num tangents       :  0
@@ -228,16 +277,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.009
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  143
-		num normals        :  143
+		num positions      :  168
+		num normals        :  168
 		num tangents       :  0
-		num uvs            :  286
+		num uvs            :  336
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  56
+		num triangles      :  64
 	processing begun of mesh:  Plane.103
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  52
 		num normals        :  52
 		num tangents       :  0
@@ -246,8 +295,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  20
 	processing begun of mesh:  Plane.105
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  31
 		num normals        :  31
 		num tangents       :  0
@@ -375,8 +424,15 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  canteen window.139
 		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Cube.095
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  wood audi
+			processing texture audi_wood_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture audi_wood_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture audi_wood_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture audi_wood_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
 		num positions      :  31
 		num normals        :  31
 		num tangents       :  0
@@ -385,8 +441,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Cube.096
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
 		num positions      :  31
 		num normals        :  31
 		num tangents       :  0
@@ -395,8 +451,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Cube.097
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
 		num positions      :  155
 		num normals        :  155
 		num tangents       :  0
@@ -405,15 +461,15 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  Cube.098
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  31
-		num normals        :  31
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  50
+		num normals        :  50
 		num tangents       :  0
-		num uvs            :  62
+		num uvs            :  100
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  12
+		num triangles      :  20
 	processing begun of mesh:  Cube.099
 		mesh is an instance of :  Cube.095.  Processing halted.
 	processing begun of mesh:  Cube.007
@@ -458,8 +514,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Cube.066
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  62
 		num normals        :  62
 		num tangents       :  0
@@ -506,6 +562,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  12
 	processing begun of mesh:  Cylinder
 		processing begun of material:  black
+		registered as also a user of material:  black
 		num positions      :  268
 		num normals        :  268
 		num tangents       :  0
@@ -533,8 +590,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  32
 	processing begun of mesh:  Plane.116
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  stage back
+		registered as also a user of material:  stage back
 		num positions      :  302
 		num normals        :  302
 		num tangents       :  0
@@ -754,6 +811,19 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
+	processing begun of mesh:  Plane.128
+		processing begun of material:  main_building_interior
+		processing begun of material:  temp trans
+		registered as also a user of material:  main_building_interior
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#3
+		num positions      :  230
+		num normals        :  230
+		num tangents       :  0
+		num uvs            :  460
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  202
 	processing begun of mesh:  bounds
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -825,8 +895,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  2
 	processing begun of mesh:  Cube.010
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  main_building_interior
+		registered as also a user of material:  main_building_interior
 		num positions      :  986
 		num normals        :  986
 		num tangents       :  0
@@ -836,8 +906,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  408
 	processing begun of node:  Empty.002
 	processing begun of mesh:  Cube.014
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  main_building_interior
+		registered as also a user of material:  main_building_interior
 		num positions      :  60
 		num normals        :  60
 		num tangents       :  0
@@ -846,8 +916,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Cube.013
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  main_building_interior
+		registered as also a user of material:  main_building_interior
 		num positions      :  1102
 		num normals        :  1102
 		num tangents       :  0
@@ -889,8 +959,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  10
 	processing begun of mesh:  study space.004
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  23
 		num normals        :  23
 		num tangents       :  0
@@ -954,11 +1024,14 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  24
 	processing begun of mesh:  gate pillar big
 		processing begun of material:  temp trans
+		processing begun of material:  cream main building
 		registered as also a user of material:  temp trans
-		num positions      :  700
-		num normals        :  700
+		registered as also a user of material:  cream main building
+		processing begun of multimaterial:  dec.Multimaterial#4
+		num positions      :  717
+		num normals        :  717
 		num tangents       :  0
-		num uvs            :  1400
+		num uvs            :  1434
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  280
@@ -1004,7 +1077,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#3
+		processing begun of multimaterial:  dec.Multimaterial#5
 		num positions      :  6015
 		num normals        :  6015
 		num tangents       :  0
@@ -1037,7 +1110,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#4
+		processing begun of multimaterial:  dec.Multimaterial#6
 		num positions      :  97
 		num normals        :  97
 		num tangents       :  0
@@ -1052,7 +1125,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#5
+		processing begun of multimaterial:  dec.Multimaterial#7
 		num positions      :  1995
 		num normals        :  1995
 		num tangents       :  0
@@ -1071,7 +1144,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#6
+		processing begun of multimaterial:  dec.Multimaterial#8
 		num positions      :  97
 		num normals        :  97
 		num tangents       :  0
@@ -1096,7 +1169,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#7
+		processing begun of multimaterial:  dec.Multimaterial#9
 		num positions      :  368
 		num normals        :  368
 		num tangents       :  0
@@ -1121,7 +1194,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
-		processing begun of multimaterial:  dec.Multimaterial#8
+		processing begun of multimaterial:  dec.Multimaterial#10
 		num positions      :  6373
 		num normals        :  6373
 		num tangents       :  0
@@ -1241,7 +1314,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#9
+		processing begun of multimaterial:  dec.Multimaterial#11
 		num positions      :  25100
 		num normals        :  25100
 		num tangents       :  0
@@ -1256,7 +1329,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#10
+		processing begun of multimaterial:  dec.Multimaterial#12
 		num positions      :  384
 		num normals        :  384
 		num tangents       :  0
@@ -1361,8 +1434,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  360
 	processing begun of mesh:  Plane.051
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  60
 		num normals        :  60
 		num tangents       :  0
@@ -1419,7 +1492,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  temp trans
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
-		processing begun of multimaterial:  dec.Multimaterial#11
+		processing begun of multimaterial:  dec.Multimaterial#13
 		num positions      :  15696
 		num normals        :  15696
 		num tangents       :  0
@@ -1438,8 +1511,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Plane.099
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -1490,12 +1563,12 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.104
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  60
-		num normals        :  60
+		processing begun of material:  main_building_interior
+		registered as also a user of material:  main_building_interior
+		num positions      :  61
+		num normals        :  61
 		num tangents       :  0
-		num uvs            :  120
+		num uvs            :  122
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
@@ -1551,6 +1624,26 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
+	processing begun of mesh:  Plane.129
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.130
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
 	processing begun of mesh:  Cube.016
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -1634,7 +1727,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  temp trans
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#12
+		processing begun of multimaterial:  dec.Multimaterial#14
 		num positions      :  260
 		num normals        :  260
 		num tangents       :  0
@@ -1699,7 +1792,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  temp trans
 		registered as also a user of material:  windows backing grey
 		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#13
+		processing begun of multimaterial:  dec.Multimaterial#15
 		num positions      :  64
 		num normals        :  64
 		num tangents       :  0
@@ -1891,10 +1984,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  92
 	processing begun of mesh:  dome window.001
 		processing begun of material:  temp trans
-		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
-		registered as also a user of material:  temp trans
-		processing begun of multimaterial:  dec.Multimaterial#14
 		num positions      :  364
 		num normals        :  364
 		num tangents       :  0
@@ -1965,10 +2055,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  back wall.001
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  722
-		num normals        :  722
+		num positions      :  723
+		num normals        :  723
 		num tangents       :  0
-		num uvs            :  1444
+		num uvs            :  1446
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
@@ -2101,13 +2191,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.094
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  181
-		num normals        :  181
+		num positions      :  167
+		num normals        :  167
 		num tangents       :  0
-		num uvs            :  362
+		num uvs            :  334
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  151
+		num triangles      :  145
 	processing begun of mesh:  Plane.095
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
@@ -2181,13 +2271,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.123
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
-		num positions      :  4
-		num normals        :  4
+		num positions      :  154
+		num normals        :  154
 		num tangents       :  0
-		num uvs            :  8
+		num uvs            :  308
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  2
+		num triangles      :  134
 	processing begun of mesh:  Plane.124
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
@@ -2219,8 +2309,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Plane.102
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  main_building_interior
+		registered as also a user of material:  main_building_interior
 		num positions      :  61
 		num normals        :  61
 		num tangents       :  0
@@ -2332,8 +2422,18 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  12
 	processing begun of mesh:  button
 		processing begun of material:  join meet
-			processing texture join_meet
+			processing texture texts_compilation1
 				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  266
+		num normals        :  266
+		num tangents       :  0
+		num uvs            :  532
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  220
+	processing begun of mesh:  button.001
+		processing begun of material:  join meet
+		registered as also a user of material:  join meet
 		num positions      :  266
 		num normals        :  266
 		num tangents       :  0
@@ -2357,7 +2457,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture texture_1005
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#15
+		processing begun of multimaterial:  dec.Multimaterial#16
 		num positions      :  102352
 		num normals        :  102352
 		num tangents       :  0
@@ -2366,7 +2466,240 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  54306
 		WARNING: # of 0 area faces found:  6459
+	processing begun of mesh:  Cube.108
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  150
+		num normals        :  150
+		num tangents       :  0
+		num uvs            :  300
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  120
+	processing begun of mesh:  Cube.109
+		mesh is an instance of :  Cube.108.  Processing halted.
+	processing begun of mesh:  Cube.114
+		processing begun of material:  sandstone exterior
+		processing begun of material:  black
+		registered as also a user of material:  sandstone exterior
+		registered as also a user of material:  black
+		processing begun of multimaterial:  dec.Multimaterial#17
+		num positions      :  1414
+		num normals        :  1414
+		num tangents       :  0
+		num uvs            :  2828
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  548
+	processing begun of mesh:  Cube.115
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.116
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.117
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.118
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.119
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.120
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.121
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.122
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.123
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.124
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.125
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.126
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.127
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.128
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.135
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.136
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.138
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.139
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.129
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.130
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.131
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.132
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.133
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.134
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.137
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.140
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.141
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.142
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.143
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.144
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.145
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  Cube.146
+		mesh is an instance of :  Cube.114.  Processing halted.
+	processing begun of mesh:  tree 5.001
+		processing begun of material:  Log.001
+		processing begun of material:  Branches alfa txtr 1.002
+			processing texture Tree_1log_txtr_
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Branches_alfa_txtr_1
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#18
+		num positions      :  1477
+		num normals        :  1477
+		num tangents       :  0
+		num uvs            :  2954
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  804
+	processing begun of mesh:  tree 5.002
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 5.003
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 4.001
+		processing begun of material:  Log.001
+		processing begun of material:  Branches alfa txtr 1.002
+		registered as also a user of material:  Log.001
+		registered as also a user of material:  Branches alfa txtr 1.002
+		processing begun of multimaterial:  dec.Multimaterial#19
+		num positions      :  280
+		num normals        :  280
+		num tangents       :  0
+		num uvs            :  560
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  224
+	processing begun of mesh:  tree 6.001
+		processing begun of material:  tree 5.001
+		processing begun of material:  branches 4.002
+			processing texture Tree_5_log_txtr
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture branches_4
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#20
+		num positions      :  646
+		num normals        :  646
+		num tangents       :  0
+		num uvs            :  1292
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  684
+	processing begun of mesh:  tree  7.001
+		processing begun of material:  log 2.001
+		processing begun of material:  Branches 3.001
+			processing texture Tree_7_log_txtr
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Branches_3
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#21
+		num positions      :  345
+		num normals        :  345
+		num tangents       :  0
+		num uvs            :  690
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  288
+	processing begun of mesh:  tree 2.001
+		processing begun of material:  Log.001
+		processing begun of material:  branches 5.001
+		registered as also a user of material:  Log.001
+			processing texture branches_5
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#22
+		num positions      :  1420
+		num normals        :  1420
+		num tangents       :  0
+		num uvs            :  2840
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  810
+	processing begun of mesh:  tree 4.002
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 9.001
+		processing begun of material:  tree 8.001
+		processing begun of material:  Branches 6.001
+			processing texture Tree_1log_txtr_
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture Tree_1log_txtr_
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture Branches_6
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  dec.Multimaterial#23
+		num positions      :  2576
+		num normals        :  2576
+		num tangents       :  0
+		num uvs            :  5152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2132
+	processing begun of mesh:  tree 5.004
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 5.005
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 5.006
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 4.003
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 6.002
+		mesh is an instance of :  tree 6.001.  Processing halted.
+	processing begun of mesh:  tree  7.002
+		mesh is an instance of :  tree  7.001.  Processing halted.
+	processing begun of mesh:  tree 2.002
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 4.004
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 9.002
+		mesh is an instance of :  tree 9.001.  Processing halted.
+	processing begun of mesh:  tree 9.004
+		mesh is an instance of :  tree 9.001.  Processing halted.
+	processing begun of mesh:  tree 5.007
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 6.003
+		mesh is an instance of :  tree 6.001.  Processing halted.
+	processing begun of mesh:  tree 4.005
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 4.006
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 2.003
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 5.008
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 4.007
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 2.004
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree  7.003
+		mesh is an instance of :  tree  7.001.  Processing halted.
+	processing begun of mesh:  tree 4.008
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 2.005
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 5.009
+		mesh is an instance of :  tree 5.001.  Processing halted.
 ========= Writing of JSON file started =========
+	writing mesh:  Text
+	writing mesh:  Plane.142
+	writing mesh:  Plane.143
+	writing mesh:  Plane.144
+	writing mesh:  Plane.145
 	writing mesh:  court
 	writing mesh:  floor
 	writing mesh:  floor.001
@@ -2432,6 +2765,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.092
 	writing mesh:  Plane.096
 	writing mesh:  Plane.121
+	writing mesh:  Plane.128
 	writing mesh:  bounds
 	writing mesh:  Plane.036
 	writing mesh:  staircase ramp
@@ -2496,6 +2830,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.110
 	writing mesh:  Cube.101
 	writing mesh:  Plane.120
+	writing mesh:  Plane.129
+	writing mesh:  Plane.130
 	writing mesh:  Cube.016
 	writing mesh:  Cube.017
 	writing mesh:  Plane.106
@@ -2540,7 +2876,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  dias
 	writing mesh:  ecell
 	writing mesh:  button
+	writing mesh:  button.001
 	writing mesh:  statue
+	writing mesh:  Cube.108
+	writing mesh:  Cube.114
+	writing mesh:  tree 5.001
+	writing mesh:  tree 4.001
+	writing mesh:  tree 6.001
+	writing mesh:  tree  7.001
+	writing mesh:  tree 2.001
+	writing mesh:  tree 9.001
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 17.0006 secs
+elapsed time:  0 min, 17.4887 secs
