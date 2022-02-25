@@ -9,7 +9,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  D:\Work\WebDev\Babylon\test8\
+		Texture directory   :  D:\Work\WebDev\Babylon\test9\
 			processing texture venice_sunset_2k
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently enabled collection
@@ -23,25 +23,28 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  26
 	processing begun of mesh:  Plane.142
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  604
-		num normals        :  604
+		processing begun of material:  sandstone exterior
+			processing texture sandstone_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture sandstone_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  621
+		num normals        :  621
 		num tangents       :  0
-		num uvs            :  0
+		num uvs            :  1242
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  272
+		num triangles      :  276
 	processing begun of mesh:  Plane.143
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  2073
-		num normals        :  2073
+		processing begun of material:  sandstone exterior
+		registered as also a user of material:  sandstone exterior
+		num positions      :  328
+		num normals        :  328
 		num tangents       :  0
-		num uvs            :  0
+		num uvs            :  656
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  1028
+		num triangles      :  140
 	processing begun of mesh:  Plane.144
 		processing begun of material:  grey ground
 			processing texture grey_ground_normal
@@ -69,6 +72,33 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  13
+	processing begun of mesh:  Plane.153
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5
+	processing begun of mesh:  Plane.163
+		processing begun of material:  cream main building
+			processing texture cream_building_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture cream_building_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture cream_building_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
 	processing begun of mesh:  court
 		processing begun of material:  bbcourt
 			processing texture bbcourt_no_logo2
@@ -119,14 +149,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  36
 	processing begun of mesh:  Cube.001
 		processing begun of material:  cream main building
-			processing texture cream_building_normal
-				texture type:  bumpTexture, mapped using: "UVMap"
-			processing texture cream_building_basecolor
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture cream_building_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture cream_building_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
+		registered as also a user of material:  cream main building
 		num positions      :  134
 		num normals        :  134
 		num tangents       :  0
@@ -147,13 +170,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  floors
 		processing begun of material:  grey ground
 		registered as also a user of material:  grey ground
-		num positions      :  320
-		num normals        :  320
+		num positions      :  414
+		num normals        :  414
 		num tangents       :  0
-		num uvs            :  640
+		num uvs            :  828
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  156
+		num triangles      :  204
 	processing begun of mesh:  Cube.004
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -287,6 +310,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.103
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.105
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  52
 		num normals        :  52
 		num tangents       :  0
@@ -294,16 +327,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  20
-	processing begun of mesh:  Plane.105
-		processing begun of material:  cream main building
-		registered as also a user of material:  cream main building
-		num positions      :  31
-		num normals        :  31
-		num tangents       :  0
-		num uvs            :  62
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
 	processing begun of mesh:  Plane.011
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -315,8 +338,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.074
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  stage blue
 		num positions      :  21
 		num normals        :  21
 		num tangents       :  0
@@ -524,8 +546,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Plane.085
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  stage blue
+		registered as also a user of material:  stage blue
 		num positions      :  21
 		num normals        :  21
 		num tangents       :  0
@@ -549,10 +571,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  bumpTexture, mapped using: "UVMap"
 			processing texture main_building_corridor_basecolor
 				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture main_building_corridor_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture main_building_corridor_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
 		num positions      :  31
 		num normals        :  31
 		num tangents       :  0
@@ -572,6 +590,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  240
 	processing begun of mesh:  Plane.013
 		processing begun of material:  stage blue
+		registered as also a user of material:  stage blue
 		num positions      :  122
 		num normals        :  122
 		num tangents       :  0
@@ -671,14 +690,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  48
 	processing begun of mesh:  Plane.032
 		processing begun of material:  sandstone exterior
-			processing texture sandstone_normal
-				texture type:  bumpTexture, mapped using: "UVMap"
-			processing texture sandstone_basecolor
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture sandstone_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture sandstone_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
+		registered as also a user of material:  sandstone exterior
 		num positions      :  260
 		num normals        :  260
 		num tangents       :  0
@@ -824,6 +836,26 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  202
+	processing begun of mesh:  Plane.146
+		processing begun of material:  sandstone exterior
+		registered as also a user of material:  sandstone exterior
+		num positions      :  260
+		num normals        :  260
+		num tangents       :  0
+		num uvs            :  520
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  Plane.155
+		processing begun of material:  sandstone exterior
+		registered as also a user of material:  sandstone exterior
+		num positions      :  70
+		num normals        :  70
+		num tangents       :  0
+		num uvs            :  140
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
 	processing begun of mesh:  bounds
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -867,13 +899,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  ramp hide.001
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
-		num positions      :  16
-		num normals        :  16
+		num positions      :  4
+		num normals        :  4
 		num tangents       :  0
-		num uvs            :  32
+		num uvs            :  8
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  8
+		num triangles      :  2
 	processing begun of mesh:  being mirrored about.001
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -894,6 +926,74 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
+	processing begun of mesh:  Plane.150
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.054
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  90
+		num normals        :  90
+		num tangents       :  0
+		num uvs            :  180
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  39
+	processing begun of mesh:  Plane.152
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  130
+		num normals        :  130
+		num tangents       :  0
+		num uvs            :  260
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  59
+	processing begun of mesh:  staircase ramp.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  staircase ramp.003
+		mesh is an instance of :  staircase ramp.001.  Processing halted.
+	processing begun of mesh:  Plane.158
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.159
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  14
+		num normals        :  14
+		num tangents       :  0
+		num uvs            :  28
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  Plane.160
+		mesh is an instance of :  Plane.150.  Processing halted.
+	processing begun of mesh:  Plane.161
+		mesh is an instance of :  Plane.150.  Processing halted.
+	processing begun of mesh:  Plane.162
+		mesh is an instance of :  Plane.150.  Processing halted.
 	processing begun of mesh:  Cube.010
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
@@ -926,8 +1026,14 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  456
 	processing begun of node:  Empty.003
-	processing begun of node:  Empty.004
-	processing begun of node:  Empty.009
+	processing begun of mesh:  Cube.170
+		mesh is an instance of :  Cube.010.  Processing halted.
+	processing begun of node:  Empty.010
+	processing begun of mesh:  Cube.171
+		mesh is an instance of :  Cube.014.  Processing halted.
+	processing begun of mesh:  Cube.172
+		mesh is an instance of :  Cube.013.  Processing halted.
+	processing begun of node:  Empty.011
 	processing begun of mesh:  study space
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -1022,6 +1128,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
+	processing begun of mesh:  Cube.161
+		mesh is an instance of :  Cube.046.  Processing halted.
+	processing begun of mesh:  Cube.162
+		mesh is an instance of :  Cube.046.  Processing halted.
 	processing begun of mesh:  gate pillar big
 		processing begun of material:  temp trans
 		processing begun of material:  cream main building
@@ -1187,6 +1297,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  Cube.052.  Processing halted.
 	processing begun of mesh:  Cube.094
 		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.157
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.156
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.158
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.159
+		mesh is an instance of :  Cube.052.  Processing halted.
+	processing begun of mesh:  Cube.160
+		mesh is an instance of :  Cube.052.  Processing halted.
 	processing begun of mesh:  Plane.021
 		processing begun of material:  windows backing grey
 		processing begun of material:  temp trans
@@ -1241,22 +1361,15 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.034
-		processing begun of material:  main building corridor floor
-			processing texture main_building_floor_normal
-				texture type:  bumpTexture, mapped using: "UVMap"
-			processing texture main_building_floor_basecolor
-				texture type:  diffuseTexture, mapped using: "UVMap"
-			processing texture main_building_floor_occlusion_roughness_metal
-				texture type:  metallicTexture, mapped using: "UVMap"
-			processing texture main_building_floor_occlusion_roughness_metal
-				texture type:  value not meaningful 2, mapped using: "UVMap"
-		num positions      :  174
-		num normals        :  174
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  136
+		num normals        :  136
 		num tangents       :  0
-		num uvs            :  348
+		num uvs            :  272
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  92
+		num triangles      :  70
 	processing begun of mesh:  Cube.028
 		processing begun of material:  sandstone exterior
 		registered as also a user of material:  sandstone exterior
@@ -1278,8 +1391,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  1836
 	processing begun of mesh:  Plane.080
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  102
 		num normals        :  102
 		num tangents       :  0
@@ -1307,6 +1420,23 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  12
+	processing begun of mesh:  Plane.149
+		processing begun of material:  main building corridor floor
+			processing texture main_building_floor_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture main_building_floor_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture main_building_floor_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture main_building_floor_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
 	processing begun of mesh:  Cube.031
 		processing begun of material:  temp trans
 		processing begun of material:  cream main building
@@ -1315,13 +1445,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
 		processing begun of multimaterial:  dec.Multimaterial#11
-		num positions      :  25100
-		num normals        :  25100
+		num positions      :  12556
+		num normals        :  12556
 		num tangents       :  0
-		num uvs            :  50200
+		num uvs            :  25112
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  19840
+		num triangles      :  9920
 	processing begun of mesh:  Cube.032
 		processing begun of material:  temp trans
 		processing begun of material:  cream main building
@@ -1330,13 +1460,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  cream main building
 		registered as also a user of material:  windows backing grey
 		processing begun of multimaterial:  dec.Multimaterial#12
-		num positions      :  384
-		num normals        :  384
+		num positions      :  190
+		num normals        :  190
 		num tangents       :  0
-		num uvs            :  768
+		num uvs            :  380
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  192
+		num triangles      :  96
 	processing begun of mesh:  Cube.033
 		mesh is an instance of :  Cube.031.  Processing halted.
 	processing begun of mesh:  Cube.034
@@ -1348,13 +1478,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cylinder.002
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  694
-		num normals        :  694
+		num positions      :  346
+		num normals        :  346
 		num tangents       :  0
-		num uvs            :  1388
+		num uvs            :  692
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  624
+		num triangles      :  312
 	processing begun of mesh:  Cylinder.003
 		mesh is an instance of :  Cylinder.002.  Processing halted.
 	processing begun of mesh:  Cylinder.004
@@ -1364,8 +1494,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cylinder.006
 		mesh is an instance of :  Cylinder.002.  Processing halted.
 	processing begun of mesh:  Plane.044
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  62
 		num normals        :  62
 		num tangents       :  0
@@ -1376,16 +1506,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.046
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
-		num positions      :  124
-		num normals        :  124
+		num positions      :  62
+		num normals        :  62
 		num tangents       :  0
-		num uvs            :  248
+		num uvs            :  124
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  48
+		num triangles      :  24
 	processing begun of mesh:  Plane.048
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  sandstone exterior
+		registered as also a user of material:  sandstone exterior
 		num positions      :  96
 		num normals        :  96
 		num tangents       :  0
@@ -1396,13 +1526,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.049
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
-		num positions      :  60
-		num normals        :  60
+		num positions      :  30
+		num normals        :  30
 		num tangents       :  0
-		num uvs            :  120
+		num uvs            :  60
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  24
+		num triangles      :  12
 	processing begun of mesh:  Plane.045
 		processing begun of material:  sandstone exterior
 		registered as also a user of material:  sandstone exterior
@@ -1444,8 +1574,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  24
 	processing begun of mesh:  Plane.053
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -1454,30 +1584,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.055
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  30
-		num normals        :  30
-		num tangents       :  0
-		num uvs            :  60
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
-	processing begun of mesh:  Plane.054
 		processing begun of material:  grey ground
 		registered as also a user of material:  grey ground
-		num positions      :  60
-		num normals        :  60
-		num tangents       :  0
-		num uvs            :  120
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  24
-	processing begun of mesh:  Plane.056
-		mesh is an instance of :  Plane.055.  Processing halted.
-	processing begun of mesh:  Plane.070
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -1485,6 +1593,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  12
+	processing begun of mesh:  Plane.056
+		mesh is an instance of :  Plane.055.  Processing halted.
 	processing begun of mesh:  Cube.056
 		processing begun of material:  temp trans
 		processing begun of material:  cream main building
@@ -1501,15 +1611,15 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12400
 	processing begun of mesh:  Plane.098
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  60
-		num normals        :  60
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
+		num positions      :  30
+		num normals        :  30
 		num tangents       :  0
-		num uvs            :  120
+		num uvs            :  60
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  24
+		num triangles      :  12
 	processing begun of mesh:  Plane.099
 		processing begun of material:  grey ground
 		registered as also a user of material:  grey ground
@@ -1585,8 +1695,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.109
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -1595,8 +1705,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Plane.110
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
 		num positions      :  22
 		num normals        :  22
 		num tangents       :  0
@@ -1644,29 +1754,54 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
+	processing begun of mesh:  Plane.151
+		processing begun of material:  moss
+			processing texture Moss003_2K_Color_min1
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  164
+		num normals        :  164
+		num tangents       :  0
+		num uvs            :  328
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  218
+	processing begun of mesh:  Cylinder.043
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.044
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.045
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.046
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Cylinder.047
+		mesh is an instance of :  Cylinder.002.  Processing halted.
+	processing begun of mesh:  Plane.156
+		mesh is an instance of :  Plane.046.  Processing halted.
+	processing begun of mesh:  Cube.163
+		mesh is an instance of :  Cube.031.  Processing halted.
+	processing begun of mesh:  Cube.164
+		mesh is an instance of :  Cube.032.  Processing halted.
+	processing begun of mesh:  Cube.165
+		mesh is an instance of :  Cube.031.  Processing halted.
+	processing begun of mesh:  Cube.166
+		mesh is an instance of :  Cube.032.  Processing halted.
+	processing begun of mesh:  Cube.167
+		mesh is an instance of :  Cube.031.  Processing halted.
+	processing begun of mesh:  Cube.168
+		mesh is an instance of :  Cube.032.  Processing halted.
 	processing begun of mesh:  Cube.016
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  103
-		num normals        :  103
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  25
+		num normals        :  25
 		num tangents       :  0
-		num uvs            :  206
+		num uvs            :  50
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  44
-	processing begun of mesh:  Cube.017
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
-		num positions      :  45
-		num normals        :  45
-		num tangents       :  0
-		num uvs            :  90
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  20
+		num triangles      :  12
 	processing begun of mesh:  Plane.106
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  red roof
+		registered as also a user of material:  red roof
 		num positions      :  21
 		num normals        :  21
 		num tangents       :  0
@@ -1674,6 +1809,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
+	processing begun of mesh:  Cube.169
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
 	processing begun of mesh:  canteen window
 		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.001
@@ -1722,6 +1867,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  canteen window.129
 		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.141
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.142
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.143
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.144
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.145
+		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.058
 		processing begun of material:  windows backing grey
 		processing begun of material:  temp trans
@@ -1758,8 +1913,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cube.076
 		mesh is an instance of :  Cube.068.  Processing halted.
 	processing begun of mesh:  Cube.077
-		mesh is an instance of :  Cube.068.  Processing halted.
-	processing begun of mesh:  Cube.078
 		mesh is an instance of :  Cube.068.  Processing halted.
 	processing begun of mesh:  Cube.079
 		mesh is an instance of :  Cube.068.  Processing halted.
@@ -1869,6 +2022,46 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  canteen window.122
 		mesh is an instance of :  canteen window.029.  Processing halted.
 	processing begun of mesh:  canteen window.123
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.146
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.147
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.148
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.149
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.150
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.151
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.152
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.153
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.154
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.155
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.156
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.157
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.158
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.159
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.160
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.161
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.162
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.163
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.164
+		mesh is an instance of :  canteen window.029.  Processing halted.
+	processing begun of mesh:  canteen window.165
 		mesh is an instance of :  canteen window.029.  Processing halted.
 	processing begun of mesh:  canteen window.041
 		mesh is an instance of :  canteen window.130.  Processing halted.
@@ -2055,10 +2248,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  back wall.001
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  723
-		num normals        :  723
+		num positions      :  720
+		num normals        :  720
 		num tangents       :  0
-		num uvs            :  1446
+		num uvs            :  1440
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
@@ -2095,8 +2288,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  canteen window.095
 		mesh is an instance of :  canteen window.130.  Processing halted.
 	processing begun of mesh:  Plane.084
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  stage back
+		registered as also a user of material:  stage back
 		num positions      :  90
 		num normals        :  90
 		num tangents       :  0
@@ -2108,6 +2301,21 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  Plane.114.  Processing halted.
 	processing begun of mesh:  Plane.127
 		mesh is an instance of :  Plane.084.  Processing halted.
+	processing begun of mesh:  canteen window.166
+		processing begun of material:  windows backing grey
+		processing begun of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  dec.Multimaterial#16
+		num positions      :  445
+		num normals        :  445
+		num tangents       :  0
+		num uvs            :  890
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  226
+	processing begun of mesh:  canteen window.167
+		mesh is an instance of :  canteen window.166.  Processing halted.
 	processing begun of mesh:  Plane.014
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -2308,16 +2516,26 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
+	processing begun of mesh:  Plane.157
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
+		num positions      :  528
+		num normals        :  528
+		num tangents       :  0
+		num uvs            :  1056
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  210
 	processing begun of mesh:  Plane.102
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
-		num positions      :  61
-		num normals        :  61
+		num positions      :  108
+		num normals        :  108
 		num tangents       :  0
-		num uvs            :  122
+		num uvs            :  216
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  24
+		num triangles      :  40
 	processing begun of mesh:  Cube.038
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -2339,8 +2557,11 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cube.088
 		mesh is an instance of :  Cube.038.  Processing halted.
 	processing begun of mesh:  Cylinder.009
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  main_building_interior
+		processing begun of material:  black
+		registered as also a user of material:  main_building_interior
+		registered as also a user of material:  black
+		processing begun of multimaterial:  dec.Multimaterial#17
 		num positions      :  291
 		num normals        :  291
 		num tangents       :  0
@@ -2390,6 +2611,22 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cylinder.017
 		mesh is an instance of :  Cylinder.009.  Processing halted.
 	processing begun of node:  Empty.007
+	processing begun of mesh:  Plane.154
+		mesh is an instance of :  Plane.102.  Processing halted.
+	processing begun of mesh:  Cube.017
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.151
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.153
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.154
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Cube.155
+		mesh is an instance of :  Cube.038.  Processing halted.
+	processing begun of mesh:  Plane.164
+		mesh is an instance of :  Plane.102.  Processing halted.
+	processing begun of mesh:  Plane.165
+		mesh is an instance of :  Plane.102.  Processing halted.
 	processing begun of mesh:  dias
 		processing begun of material:  black
 		registered as also a user of material:  black
@@ -2411,8 +2648,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Cube.083
 		mesh is an instance of :  Cube.052.  Processing halted.
 	processing begun of mesh:  ecell
-		processing begun of material:  temp trans
-		registered as also a user of material:  temp trans
+		processing begun of material:  cream main building
+		registered as also a user of material:  cream main building
 		num positions      :  31
 		num normals        :  31
 		num tangents       :  0
@@ -2422,7 +2659,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  12
 	processing begun of mesh:  button
 		processing begun of material:  join meet
-			processing texture texts_compilation1
+			processing texture texts_compilation2
 				texture type:  diffuseTexture, mapped using: "UVMap"
 		num positions      :  266
 		num normals        :  266
@@ -2431,16 +2668,38 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  220
-	processing begun of mesh:  button.001
+	processing begun of mesh:  button_audi
 		processing begun of material:  join meet
 		registered as also a user of material:  join meet
-		num positions      :  266
-		num normals        :  266
+		num positions      :  269
+		num normals        :  269
 		num tangents       :  0
-		num uvs            :  532
+		num uvs            :  538
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  220
+	processing begun of mesh:  button_dep
+		processing begun of material:  join meet
+		registered as also a user of material:  join meet
+		num positions      :  272
+		num normals        :  272
+		num tangents       :  0
+		num uvs            :  544
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  220
+	processing begun of mesh:  button_canteen
+		processing begun of material:  join meet
+		registered as also a user of material:  join meet
+		num positions      :  267
+		num normals        :  267
+		num tangents       :  0
+		num uvs            :  534
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  220
+	processing begun of mesh:  button_canteen.001
+		mesh is an instance of :  button_canteen.  Processing halted.
 	processing begun of mesh:  statue
 		processing begun of material:  TextureAtlas_1001
 		processing begun of material:  TextureAtlas_1002.001
@@ -2457,7 +2716,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture texture_1005
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#16
+		processing begun of multimaterial:  dec.Multimaterial#18
 		num positions      :  102352
 		num normals        :  102352
 		num tangents       :  0
@@ -2478,12 +2737,14 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num triangles      :  120
 	processing begun of mesh:  Cube.109
 		mesh is an instance of :  Cube.108.  Processing halted.
+	processing begun of mesh:  Cube.150
+		mesh is an instance of :  Cube.108.  Processing halted.
 	processing begun of mesh:  Cube.114
 		processing begun of material:  sandstone exterior
 		processing begun of material:  black
 		registered as also a user of material:  sandstone exterior
 		registered as also a user of material:  black
-		processing begun of multimaterial:  dec.Multimaterial#17
+		processing begun of multimaterial:  dec.Multimaterial#19
 		num positions      :  1414
 		num normals        :  1414
 		num tangents       :  0
@@ -2562,7 +2823,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture Branches_alfa_txtr_1
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#18
+		processing begun of multimaterial:  dec.Multimaterial#20
 		num positions      :  1477
 		num normals        :  1477
 		num tangents       :  0
@@ -2579,7 +2840,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  Branches alfa txtr 1.002
 		registered as also a user of material:  Log.001
 		registered as also a user of material:  Branches alfa txtr 1.002
-		processing begun of multimaterial:  dec.Multimaterial#19
+		processing begun of multimaterial:  dec.Multimaterial#21
 		num positions      :  280
 		num normals        :  280
 		num tangents       :  0
@@ -2594,7 +2855,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture branches_4
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#20
+		processing begun of multimaterial:  dec.Multimaterial#22
 		num positions      :  646
 		num normals        :  646
 		num tangents       :  0
@@ -2609,7 +2870,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture Branches_3
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#21
+		processing begun of multimaterial:  dec.Multimaterial#23
 		num positions      :  345
 		num normals        :  345
 		num tangents       :  0
@@ -2623,7 +2884,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		registered as also a user of material:  Log.001
 			processing texture branches_5
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#22
+		processing begun of multimaterial:  dec.Multimaterial#24
 		num positions      :  1420
 		num normals        :  1420
 		num tangents       :  0
@@ -2642,7 +2903,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 				texture type:  diffuseTexture, mapped using: "UVMap"
 			processing texture Branches_6
 				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dec.Multimaterial#23
+		processing begun of multimaterial:  dec.Multimaterial#25
 		num positions      :  2576
 		num normals        :  2576
 		num tangents       :  0
@@ -2650,24 +2911,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2132
-	processing begun of mesh:  tree 5.004
-		mesh is an instance of :  tree 5.001.  Processing halted.
-	processing begun of mesh:  tree 5.005
-		mesh is an instance of :  tree 5.001.  Processing halted.
-	processing begun of mesh:  tree 5.006
-		mesh is an instance of :  tree 5.001.  Processing halted.
-	processing begun of mesh:  tree 4.003
-		mesh is an instance of :  tree 4.001.  Processing halted.
-	processing begun of mesh:  tree 6.002
-		mesh is an instance of :  tree 6.001.  Processing halted.
-	processing begun of mesh:  tree  7.002
-		mesh is an instance of :  tree  7.001.  Processing halted.
-	processing begun of mesh:  tree 2.002
-		mesh is an instance of :  tree 2.001.  Processing halted.
-	processing begun of mesh:  tree 4.004
-		mesh is an instance of :  tree 4.001.  Processing halted.
-	processing begun of mesh:  tree 9.002
-		mesh is an instance of :  tree 9.001.  Processing halted.
 	processing begun of mesh:  tree 9.004
 		mesh is an instance of :  tree 9.001.  Processing halted.
 	processing begun of mesh:  tree 5.007
@@ -2680,6 +2923,16 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  tree 4.001.  Processing halted.
 	processing begun of mesh:  tree 2.003
 		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 2.006
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 5.010
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree  7.004
+		mesh is an instance of :  tree  7.001.  Processing halted.
+	processing begun of mesh:  tree 5.011
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 4.009
+		mesh is an instance of :  tree 4.001.  Processing halted.
 	processing begun of mesh:  tree 5.008
 		mesh is an instance of :  tree 5.001.  Processing halted.
 	processing begun of mesh:  tree 4.007
@@ -2694,12 +2947,1140 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		mesh is an instance of :  tree 2.001.  Processing halted.
 	processing begun of mesh:  tree 5.009
 		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  Cube.152
+		processing begun of material:  black
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  black
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#26
+		num positions      :  711
+		num normals        :  711
+		num tangents       :  0
+		num uvs            :  1422
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  306
+	processing begun of mesh:  Cube.147
+		mesh is an instance of :  Cube.152.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.001
+		processing begun of material:  Plant alpha 4
+			processing texture Plant_alpha_4
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  116
+		num normals        :  116
+		num tangents       :  0
+		num uvs            :  232
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  102
+	processing begun of mesh:  Plant alpha 6.001
+		processing begun of material:  Plant alpha 6
+			processing texture Plant_alpha_6
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  150
+		num normals        :  150
+		num tangents       :  0
+		num uvs            :  300
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  160
+	processing begun of mesh:  Cylinder.019
+		processing begun of material:  Material
+			processing texture clay_brown2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  141
+		num normals        :  141
+		num tangents       :  0
+		num uvs            :  282
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  116
+	processing begun of mesh:  Cylinder.018
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.003
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.020
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.004
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.021
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.005
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.022
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.003
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.023
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.004
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.024
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.005
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.025
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.006
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.026
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.007
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.027
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.008
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.028
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.006
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.029
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.007
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.030
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.009
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.031
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 4.010
+		mesh is an instance of :  Plant alpha 4.001.  Processing halted.
+	processing begun of mesh:  Cylinder.032
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.008
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.033
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.009
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.034
+		mesh is an instance of :  Cylinder.019.  Processing halted.
+	processing begun of mesh:  hindi_text
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  1879
+		num normals        :  1879
+		num tangents       :  0
+		num uvs            :  3758
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  856
+	processing begun of mesh:  Plane.147
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  99
+		num normals        :  99
+		num tangents       :  0
+		num uvs            :  198
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  38
+	processing begun of mesh:  Text.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  282
+		num normals        :  282
+		num tangents       :  0
+		num uvs            :  564
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  120
+	processing begun of mesh:  Plane.148
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Circle.003
+		processing begun of material:  temp trans
+		processing begun of material:  windows backing grey
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  windows backing grey
+		processing begun of multimaterial:  dec.Multimaterial#27
+		num positions      :  1037
+		num normals        :  1037
+		num tangents       :  0
+		num uvs            :  2074
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  641
+	processing begun of mesh:  Circle.004
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.005
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.006
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.007
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.008
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.009
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.010
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.011
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.012
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.013
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.014
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.015
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.016
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Circle.017
+		mesh is an instance of :  Circle.003.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.001
+		processing begun of material:  Plant alpha 1
+			processing texture Plant_alpha_1
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  0
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  Branches alfa txtr 2.002
+		processing begun of material:  Branches alfa txtr 2.001
+			processing texture Branches_alfa_txtr_2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  157
+		num normals        :  157
+		num tangents       :  0
+		num uvs            :  314
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  64
+	processing begun of mesh:  Grass alpha txtr 9.002
+		processing begun of material:  Grass alpha txtr 9.001
+			processing texture Grass_alpha_txtr_9
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Grass alpha txtr 13.002
+		processing begun of material:  Grass alpha txtr 13.001
+			processing texture Grass_alpha_txtr_13
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Grass alpha txtr 13.003
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.003
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.003
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.004
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.004
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.005
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.005
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.004
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.002
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.006
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.006
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.007
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.007
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.008
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.009
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.008
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.003
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.005
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.006
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.007
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.008
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.009
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.010
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.011
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.012
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.010
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.004
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.013
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.014
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.015
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.011
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.012
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.016
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.017
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.009
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.018
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.019
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.020
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.021
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.022
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.010
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.023
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.024
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.025
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.011
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.012
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.013
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.014
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.015
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.016
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.017
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.018
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.019
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.026
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.027
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.020
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.028
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.029
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.030
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.031
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.005
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.013
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.014
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.015
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.006
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.016
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.017
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.018
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.032
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.021
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.034
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.035
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.036
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.037
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.038
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.039
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.040
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.041
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.042
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.043
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.044
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.023
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.045
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.046
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.047
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.048
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.050
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.024
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.051
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.052
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.053
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.019
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.007
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.020
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.021
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.022
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.022
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.033
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.049
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.025
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.008
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.023
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.024
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.054
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.055
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.056
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.057
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.058
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.059
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.060
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.026
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.061
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.062
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.063
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.064
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.027
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.028
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.065
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.029
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.066
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.067
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.030
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.009
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.025
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.026
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.068
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.069
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.070
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.071
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.072
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.073
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.074
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.031
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.075
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.076
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.077
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.078
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.032
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.033
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.079
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.080
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.034
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.081
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.082
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.083
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.084
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.085
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.086
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.087
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.088
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.089
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.090
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.091
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.035
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.092
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.093
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.094
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.095
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.096
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.036
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.097
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.098
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.099
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.037
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.100
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.038
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.106
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.108
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.110
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.111
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.039
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.112
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.113
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.114
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.115
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.116
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.040
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.117
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.118
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.119
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.101
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.103
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.010
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.027
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.041
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.102
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.104
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.042
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.028
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.043
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.105
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.107
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.044
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.029
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.011
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.045
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.109
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.012
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.030
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.031
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.121
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.122
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.123
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.032
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.013
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.046
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.047
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.048
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.049
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.050
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.051
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.052
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.053
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.054
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.124
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.125
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.014
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.033
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.034
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.035
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.036
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.015
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.037
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.038
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.039
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.126
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.127
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.055
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.128
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.129
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.056
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.040
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.041
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.130
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.131
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.132
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.042
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.043
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.133
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.134
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.057
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.135
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.136
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.137
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.138
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.139
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.058
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.140
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.141
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.142
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.143
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.059
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.144
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.145
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.146
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.016
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.044
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.045
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.046
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.147
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.060
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.148
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.149
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.150
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.151
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.152
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.153
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.154
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.155
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.156
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.157
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.158
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.061
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.159
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.160
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.161
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.162
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.163
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.062
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.165
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.166
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 9.063
+		mesh is an instance of :  Grass alpha txtr 9.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 1.017
+		mesh is an instance of :  Plant alpha 1.001.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.047
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.167
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.168
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.170
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.171
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.172
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.048
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.049
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Branches alfa txtr 2.050
+		mesh is an instance of :  Branches alfa txtr 2.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.120
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  tree  7.002
+		mesh is an instance of :  tree  7.001.  Processing halted.
+	processing begun of mesh:  tree 2.002
+		mesh is an instance of :  tree 2.001.  Processing halted.
+	processing begun of mesh:  tree 4.003
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 4.004
+		mesh is an instance of :  tree 4.001.  Processing halted.
+	processing begun of mesh:  tree 5.004
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 5.005
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 5.006
+		mesh is an instance of :  tree 5.001.  Processing halted.
+	processing begun of mesh:  tree 6.002
+		mesh is an instance of :  tree 6.001.  Processing halted.
+	processing begun of mesh:  tree 9.002
+		mesh is an instance of :  tree 9.001.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.164
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.173
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.174
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.175
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.176
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.177
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.178
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.179
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.180
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.181
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.182
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.183
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.186
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.187
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.188
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.191
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.192
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.193
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.194
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.195
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.198
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.199
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.200
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.201
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.202
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.203
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.208
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.209
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.210
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.211
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.213
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.214
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.215
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.216
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.217
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.218
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.212
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.221
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.222
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.223
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.224
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.225
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.226
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.227
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.228
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.229
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.230
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.231
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.232
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.233
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.234
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.235
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.236
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.237
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.238
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.239
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.240
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.241
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.242
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.243
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.244
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.245
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.246
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.247
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.248
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.249
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Grass alpha txtr 13.250
+		mesh is an instance of :  Grass alpha txtr 13.002.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.010
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.011
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.012
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.013
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.014
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.015
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.016
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.017
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.018
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.019
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.020
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.022
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.023
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.024
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.021
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.025
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.026
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.027
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.028
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.029
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.030
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.031
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.032
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.033
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.034
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.035
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.036
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.037
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.038
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.039
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.040
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Plant alpha 6.041
+		mesh is an instance of :  Plant alpha 6.001.  Processing halted.
+	processing begun of mesh:  Cylinder.035
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  67
+		num normals        :  67
+		num tangents       :  0
+		num uvs            :  134
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  Cylinder.036
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.037
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.038
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.039
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.040
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.041
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Cylinder.042
+		mesh is an instance of :  Cylinder.035.  Processing halted.
+	processing begun of mesh:  Plane.070
+		processing begun of material:  grey ground
+		registered as also a user of material:  grey ground
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.078
+		mesh is an instance of :  Cube.068.  Processing halted.
+	processing begun of mesh:  Cube.148
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  2179
+		num normals        :  2179
+		num tangents       :  0
+		num uvs            :  4358
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  768
+	processing begun of node:  Empty.008
+	processing begun of mesh:  Cube.149
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  248
+		num normals        :  248
+		num tangents       :  0
+		num uvs            :  496
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  canteen window.168
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.169
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.170
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.171
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.172
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.173
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.174
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.175
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.176
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.177
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.178
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.179
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.180
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.181
+		mesh is an instance of :  canteen window.130.  Processing halted.
+	processing begun of mesh:  canteen window.182
+		mesh is an instance of :  canteen window.166.  Processing halted.
+	processing begun of mesh:  canteen window.183
+		mesh is an instance of :  canteen window.130.  Processing halted.
 ========= Writing of JSON file started =========
 	writing mesh:  Text
 	writing mesh:  Plane.142
 	writing mesh:  Plane.143
 	writing mesh:  Plane.144
 	writing mesh:  Plane.145
+	writing mesh:  Plane.153
+	writing mesh:  Plane.163
 	writing mesh:  court
 	writing mesh:  floor
 	writing mesh:  floor.001
@@ -2766,6 +4147,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.096
 	writing mesh:  Plane.121
 	writing mesh:  Plane.128
+	writing mesh:  Plane.146
+	writing mesh:  Plane.155
 	writing mesh:  bounds
 	writing mesh:  Plane.036
 	writing mesh:  staircase ramp
@@ -2773,6 +4156,12 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  ramp hide.001
 	writing mesh:  being mirrored about.001
 	writing mesh:  Cube.100
+	writing mesh:  Plane.150
+	writing mesh:  Plane.054
+	writing mesh:  Plane.152
+	writing mesh:  staircase ramp.002
+	writing mesh:  Plane.158
+	writing mesh:  Plane.159
 	writing mesh:  Cube.010
 	writing mesh:  Cube.014
 	writing mesh:  Cube.013
@@ -2802,6 +4191,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.080
 	writing mesh:  Cube.102
 	writing mesh:  Cube.104
+	writing mesh:  Plane.149
 	writing mesh:  Cube.031
 	writing mesh:  Cube.032
 	writing mesh:  Cylinder.002
@@ -2815,8 +4205,6 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.051
 	writing mesh:  Plane.053
 	writing mesh:  Plane.055
-	writing mesh:  Plane.054
-	writing mesh:  Plane.070
 	writing mesh:  Cube.056
 	writing mesh:  Plane.098
 	writing mesh:  Plane.099
@@ -2832,9 +4220,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.120
 	writing mesh:  Plane.129
 	writing mesh:  Plane.130
+	writing mesh:  Plane.151
 	writing mesh:  Cube.016
-	writing mesh:  Cube.017
 	writing mesh:  Plane.106
+	writing mesh:  Cube.169
 	writing mesh:  Plane.058
 	writing mesh:  canteen window.029
 	writing mesh:  Plane.047
@@ -2848,6 +4237,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  dome window.001
 	writing mesh:  back wall.001
 	writing mesh:  Plane.084
+	writing mesh:  canteen window.166
 	writing mesh:  Plane.014
 	writing mesh:  Plane.015
 	writing mesh:  Plane.004
@@ -2868,6 +4258,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.124
 	writing mesh:  Plane.125
 	writing mesh:  Plane.126
+	writing mesh:  Plane.157
 	writing mesh:  Plane.102
 	writing mesh:  Cube.038
 	writing mesh:  Cylinder.009
@@ -2876,7 +4267,9 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  dias
 	writing mesh:  ecell
 	writing mesh:  button
-	writing mesh:  button.001
+	writing mesh:  button_audi
+	writing mesh:  button_dep
+	writing mesh:  button_canteen
 	writing mesh:  statue
 	writing mesh:  Cube.108
 	writing mesh:  Cube.114
@@ -2886,6 +4279,23 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  tree  7.001
 	writing mesh:  tree 2.001
 	writing mesh:  tree 9.001
+	writing mesh:  Cube.152
+	writing mesh:  Plant alpha 4.001
+	writing mesh:  Plant alpha 6.001
+	writing mesh:  Cylinder.019
+	writing mesh:  hindi_text
+	writing mesh:  Plane.147
+	writing mesh:  Text.001
+	writing mesh:  Plane.148
+	writing mesh:  Circle.003
+	writing mesh:  Plant alpha 1.001
+	writing mesh:  Branches alfa txtr 2.002
+	writing mesh:  Grass alpha txtr 9.002
+	writing mesh:  Grass alpha txtr 13.002
+	writing mesh:  Cylinder.035
+	writing mesh:  Plane.070
+	writing mesh:  Cube.148
+	writing mesh:  Cube.149
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 17.4887 secs
+elapsed time:  0 min, 14.8377 secs

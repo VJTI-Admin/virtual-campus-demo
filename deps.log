@@ -1,0 +1,437 @@
+Exporter version: 2.93.4, Blender version: 2.93.5
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Work\WebDev\Babylon\test9\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of node:  Empty
+	processing begun of node:  Empty.001
+	processing begun of mesh:  Plane.134
+		processing begun of material:  dep walls
+			processing texture dep_wall_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture dep_wall_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture dep_wall_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture dep_wall_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  280
+		num normals        :  280
+		num tangents       :  0
+		num uvs            :  560
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  268
+	processing begun of mesh:  Plane.135
+		processing begun of material:  temp trans
+		num positions      :  154
+		num normals        :  154
+		num tangents       :  0
+		num uvs            :  308
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  Plane.136
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.002
+		processing begun of material:  dep walls
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		registered as also a user of material:  dep walls
+		processing begun of multimaterial:  deps.Multimaterial#0
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.001
+		processing begun of material:  temp trans
+		processing begun of material:  dep walls
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  dep walls
+		processing begun of multimaterial:  deps.Multimaterial#1
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.003
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.004
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Plane.005
+		mesh is an instance of :  Plane.134.  Processing halted.
+	processing begun of mesh:  Plane.006
+		processing begun of material:  windows backing grey
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.007
+		mesh is an instance of :  Plane.006.  Processing halted.
+	processing begun of mesh:  window frame
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  1154
+		num normals        :  1154
+		num tangents       :  0
+		num uvs            :  2308
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  988
+	processing begun of mesh:  window frame.001
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.002
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.003
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.004
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.005
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.006
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  window frame.007
+		mesh is an instance of :  window frame.  Processing halted.
+	processing begun of mesh:  Cube.002
+		processing begun of material:  dep tables
+			processing texture dep_tables_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture dep_tables_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture dep_tables_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture dep_tables_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  992
+		num normals        :  992
+		num tangents       :  0
+		num uvs            :  1984
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  344
+	processing begun of mesh:  Cube.001
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.006
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.007
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.008
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.009
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.010
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.011
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.012
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.013
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.040
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.041
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.042
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.043
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.044
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.055
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.056
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.057
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.058
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.059
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.070
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.071
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.072
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.073
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.074
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.075
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.076
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.077
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.078
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.079
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.080
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.081
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.082
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.083
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Cube.084
+		mesh is an instance of :  Cube.002.  Processing halted.
+	processing begun of mesh:  Plane.008
+		processing begun of material:  dep ceiling
+			processing texture dep_ceil_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture dep_ceil_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture dep_ceil_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture dep_ceil_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Cube.020
+		processing begun of material:  black
+		processing begun of material:  dep chairs
+			processing texture dep_chairs_red_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture dep_chairs_red_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture dep_chairs_red_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture dep_chairs_red_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		processing begun of multimaterial:  deps.Multimaterial#2
+		num positions      :  1341
+		num normals        :  1341
+		num tangents       :  0
+		num uvs            :  2682
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  840
+		WARNING: # of 0 area faces found:  84
+	processing begun of mesh:  Cube.022
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.021
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.023
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.024
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.025
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.026
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.027
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.028
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.029
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.030
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.031
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.032
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.033
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.034
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.035
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.036
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.037
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.038
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.039
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.045
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.046
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.047
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.048
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.049
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.050
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.051
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.052
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.053
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.054
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.060
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.061
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.062
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.063
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.064
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.065
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.066
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.067
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.068
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.069
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.085
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.086
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.087
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.088
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.089
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.090
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.091
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.092
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.093
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.094
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.095
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.096
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.097
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.098
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.099
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.100
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.101
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.102
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.103
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.104
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.105
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.106
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.107
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.108
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.109
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.110
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.111
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.112
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.113
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Cube.114
+		mesh is an instance of :  Cube.020.  Processing halted.
+	processing begun of mesh:  Plane.009
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.010
+		processing begun of material:  dep walls
+		registered as also a user of material:  dep walls
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of light (POINT):  Point
+	processing begun of light (POINT):  Point.001
+	processing begun of light (POINT):  Point.002
+	processing begun of light (POINT):  Point.003
+========= Writing of JSON file started =========
+	writing mesh:  Plane.134
+	writing mesh:  Plane.135
+	writing mesh:  Plane.136
+	writing mesh:  Plane.002
+	writing mesh:  Plane.001
+	writing mesh:  Plane.003
+	writing mesh:  Plane.004
+	writing mesh:  Plane.006
+	writing mesh:  window frame
+	writing mesh:  Cube.002
+	writing mesh:  Plane.008
+	writing mesh:  Cube.020
+	writing mesh:  Plane.009
+	writing mesh:  Plane.010
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.3028 secs

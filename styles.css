@@ -1,0 +1,136 @@
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+ 
+  p{
+      font-size: 520%;
+      color: white;
+
+  }
+  
+ 
+  .glow-on-hover {
+    width: 12%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 150%;
+    font-weight: 500;
+    font-family: 'Roboto Serif', 'Courier', sans-serif;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 2px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(214, 208, 208);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.instr{
+    background-color: white;
+    opacity: 50%;
+    width: 30%;
+    align-self: center;
+    margin-top: 5%;
+    line-height: 1.5;
+    font-family: 'Roboto Serif', 'Courier', sans-serif;
+}
+div{
+    margin: 0 auto;
+    padding: 0.5%;
+}
+
+.img1{
+    height: 8%;
+    width: 8%;
+    float: left;
+}
+.img2{
+    height: 5%;
+    width: 5%;
+    float: right;
+}
+.instr2{
+    font-size: 95%;
+    font-family: 'Roboto Serif', 'Courier', sans-serif;
+    color: black;
+    padding: 2%;
+}
+
+.main{
+    font-family: 'Oswald', "Georgia", sans-serif;
+    color: white;
+    font-size: 500%;
+    margin: 50px;
+   
+}
+
+.bottom{
+    
+    font-size: 100%;
+    font-family: 'Roboto Serif', 'Courier', sans-serif;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 20%;
+    
+    
+}
+
+#footer {
+    bottom: 2%;
+    position: fixed;
+
+    
+}

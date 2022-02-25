@@ -1,0 +1,797 @@
+Exporter version: 2.93.4, Blender version: 2.93.5
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Work\WebDev\Babylon\test9\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of mesh:  Plane.001
+		processing begun of material:  wood audi
+			processing texture audi_wood_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture audi_wood_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture audi_wood_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture audi_wood_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  102
+		num normals        :  102
+		num tangents       :  0
+		num uvs            :  204
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  44
+	processing begun of mesh:  Plane.004
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.005
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  614
+		num normals        :  614
+		num tangents       :  0
+		num uvs            :  1228
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  224
+	processing begun of mesh:  Plane.008
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.003
+		processing begun of material:  black
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Cube.004
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  93
+		num normals        :  93
+		num tangents       :  0
+		num uvs            :  186
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  Plane.012
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  204
+		num normals        :  204
+		num tangents       :  0
+		num uvs            :  408
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  Plane.128
+		processing begun of material:  temp white
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  outer wall
+		processing begun of material:  temp white
+		registered as also a user of material:  temp white
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  outer wall.002
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.011
+		processing begun of material:  stairs_audi
+			processing texture audi_stairs_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture audi_stairs_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture audi_stairs_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture audi_stairs_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  outer wall.003
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  69
+		num normals        :  69
+		num tangents       :  0
+		num uvs            :  138
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  outer wall.004
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  outer wall.005
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  outer wall.006
+		processing begun of material:  wood audi
+		registered as also a user of material:  wood audi
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane
+		processing begun of material:  temp white
+		registered as also a user of material:  temp white
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  0
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  Plane.010
+		processing begun of material:  temp white
+		registered as also a user of material:  temp white
+		num positions      :  17
+		num normals        :  17
+		num tangents       :  0
+		num uvs            :  34
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  chair single
+		processing begun of material:  chairs_audi_2
+			processing texture audi_chairs_sub_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture audi_chairs_sub_basecolor1
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture audi_chairs_sub_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture audi_chairs_sub_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  934
+		num normals        :  934
+		num tangents       :  0
+		num uvs            :  1868
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  632
+	processing begun of mesh:  chair single.001
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.002
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.003
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.004
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.005
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.006
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.007
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.008
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.009
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.010
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.011
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.012
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.013
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.014
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.015
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.016
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.017
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.018
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.019
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.020
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.021
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.022
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.023
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.024
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.025
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.026
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.027
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.028
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.029
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.030
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.031
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.032
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.033
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.034
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.035
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.036
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.037
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.038
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.039
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.040
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.041
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.042
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.043
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.044
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.045
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.046
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.047
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.048
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.049
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.050
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.051
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.052
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.053
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.054
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.055
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.056
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.057
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.058
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.059
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.060
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.061
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.062
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.063
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.064
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.065
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.066
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.067
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.068
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.069
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.070
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.071
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.072
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.073
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.074
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.075
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.076
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.077
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.078
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.079
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.080
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.081
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.082
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.083
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.084
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.085
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.086
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.087
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.088
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.089
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.090
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.091
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.092
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.093
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.094
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.095
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.096
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.097
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.098
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.099
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.100
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.101
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.102
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.103
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.104
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.105
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.106
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.107
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.108
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.109
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.110
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.111
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.112
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.113
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.114
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.115
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.116
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.117
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.118
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.119
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.120
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.121
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.122
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.123
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.124
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.125
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.126
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.127
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.128
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.129
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.130
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.131
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.132
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.133
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.134
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.135
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.136
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.137
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.138
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.139
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.140
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.141
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.142
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.143
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.144
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.145
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.146
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.147
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.148
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.149
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.150
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.151
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.152
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.153
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.154
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.155
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.156
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.157
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.158
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.159
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.162
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.163
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.164
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.165
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.166
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.167
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.168
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.169
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.170
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.171
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.172
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.173
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.178
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.179
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.180
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.181
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.182
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.183
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.184
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.185
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.186
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.187
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.188
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.189
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.194
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.195
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.196
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.197
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.198
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.199
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.200
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.201
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.202
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.203
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.204
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.205
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.210
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.211
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.212
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.213
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.214
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.215
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.216
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.217
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.218
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.219
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.220
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.221
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.224
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.225
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.226
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.227
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.228
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.229
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.230
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.231
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.232
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.233
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.234
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.235
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.236
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.237
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.238
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  chair single.239
+		mesh is an instance of :  chair single.  Processing halted.
+	processing begun of mesh:  Plane.002
+		processing begun of material:  stairs_audi
+		registered as also a user of material:  stairs_audi
+		num positions      :  368
+		num normals        :  368
+		num tangents       :  0
+		num uvs            :  736
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  240
+	processing begun of mesh:  Plane.007
+		processing begun of material:  stairs_audi
+		registered as also a user of material:  stairs_audi
+		num positions      :  307
+		num normals        :  307
+		num tangents       :  0
+		num uvs            :  614
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  Plane.009
+		processing begun of material:  stairs_audi
+		registered as also a user of material:  stairs_audi
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  0
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  ceiling
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  ceiling.001
+		processing begun of material:  black
+		registered as also a user of material:  black
+		num positions      :  70
+		num normals        :  70
+		num tangents       :  0
+		num uvs            :  140
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  ceiling.002
+		mesh is an instance of :  ceiling.001.  Processing halted.
+	processing begun of mesh:  ceiling.003
+		mesh is an instance of :  ceiling.001.  Processing halted.
+	processing begun of mesh:  ceiling.004
+		mesh is an instance of :  ceiling.001.  Processing halted.
+	processing begun of mesh:  ceiling.005
+		mesh is an instance of :  ceiling.001.  Processing halted.
+	processing begun of mesh:  Text.001
+		processing begun of material:  temp white
+		registered as also a user of material:  temp white
+		num positions      :  177
+		num normals        :  177
+		num tangents       :  0
+		num uvs            :  354
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  169
+	processing begun of mesh:  button
+		processing begun of material:  join meet.001
+			processing texture texts_compilation2
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  275
+		num normals        :  275
+		num tangents       :  0
+		num uvs            :  550
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  220
+	processing begun of mesh:  button.001
+		processing begun of material:  join meet.001
+		registered as also a user of material:  join meet.001
+		num positions      :  266
+		num normals        :  266
+		num tangents       :  0
+		num uvs            :  532
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  220
+	processing begun of light (POINT):  stage
+	processing begun of shadows for light:  stage
+	processing begun of light (POINT):  point.001
+	processing begun of shadows for light:  point.001
+	processing begun of light (POINT):  point.002
+	processing begun of shadows for light:  point.002
+	processing begun of light (POINT):  point
+	processing begun of shadows for light:  point
+========= Writing of JSON file started =========
+	writing mesh:  Plane.001
+	writing mesh:  Plane.004
+	writing mesh:  Plane.005
+	writing mesh:  Plane.008
+	writing mesh:  Plane.003
+	writing mesh:  Cube
+	writing mesh:  Cube.004
+	writing mesh:  Plane.012
+	writing mesh:  Plane.128
+	writing mesh:  outer wall
+	writing mesh:  outer wall.002
+	writing mesh:  Plane.011
+	writing mesh:  outer wall.003
+	writing mesh:  outer wall.004
+	writing mesh:  outer wall.005
+	writing mesh:  outer wall.006
+	writing mesh:  Plane
+	writing mesh:  Plane.010
+	writing mesh:  chair single
+	writing mesh:  Plane.002
+	writing mesh:  Plane.007
+	writing mesh:  Plane.009
+	writing mesh:  ceiling
+	writing mesh:  ceiling.001
+	writing mesh:  Text.001
+	writing mesh:  button
+	writing mesh:  button.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.3895 secs
