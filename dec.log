@@ -99,6 +99,29 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
+	processing begun of mesh:  enthusia_logo
+		processing begun of material:  enthusia_logo
+			processing texture enthusia_logo
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.166
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Plane.167
+		mesh is an instance of :  Plane.166.  Processing halted.
 	processing begun of mesh:  court
 		processing begun of material:  bbcourt
 			processing texture bbcourt_no_logo2
@@ -320,13 +343,29 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.105
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  52
-		num normals        :  52
+		num positions      :  63
+		num normals        :  63
 		num tangents       :  0
-		num uvs            :  104
+		num uvs            :  126
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  20
+		num triangles      :  24
+	processing begun of mesh:  Plane.168
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.169
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.170
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.171
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.172
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.173
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.174
+		mesh is an instance of :  Plane.007.  Processing halted.
+	processing begun of mesh:  Plane.175
+		mesh is an instance of :  Plane.007.  Processing halted.
 	processing begun of mesh:  Plane.011
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
@@ -2248,10 +2287,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  back wall.001
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  720
-		num normals        :  720
+		num positions      :  722
+		num normals        :  722
 		num tangents       :  0
-		num uvs            :  1440
+		num uvs            :  1444
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
@@ -2529,13 +2568,13 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plane.102
 		processing begun of material:  main_building_interior
 		registered as also a user of material:  main_building_interior
-		num positions      :  108
-		num normals        :  108
+		num positions      :  61
+		num normals        :  61
 		num tangents       :  0
-		num uvs            :  216
+		num uvs            :  122
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  40
+		num triangles      :  24
 	processing begun of mesh:  Cube.038
 		processing begun of material:  temp trans
 		registered as also a user of material:  temp trans
@@ -3141,6 +3180,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  Plant alpha 1.001
 		processing begun of material:  Plant alpha 1
 			processing texture Plant_alpha_1
+				WARNING: Exception during copy:
+					[Errno 13] Permission denied: 'D:\\Work\\WebDev\\Babylon\\test9\\Plant alpha 1.png'
 				texture type:  diffuseTexture, mapped using: "UVMap"
 		num positions      :  120
 		num normals        :  120
@@ -4041,6 +4082,165 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  96
+	processing begun of mesh:  Asset 1-50
+		processing begun of material:  Asset 1-50
+			processing texture GRE
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Asset 2-50
+		processing begun of material:  Asset 2-50
+			processing texture toefl
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png
+		processing begun of material:  logos_compiled
+			processing texture logos_compiled3
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.002
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.003
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.004
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.005
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.006
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.007
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.008
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.009
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.001
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.010
+		processing begun of material:  logos_compiled
+		registered as also a user of material:  logos_compiled
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Asset 1-50.001
+		mesh is an instance of :  Asset 1-50.  Processing halted.
+	processing begun of mesh:  Asset 2-50.001
+		mesh is an instance of :  Asset 2-50.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.011
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.012
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.002.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.013
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.003.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.014
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.004.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.015
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.005.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.016
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.006.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.017
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.007.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.018
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.008.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.019
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.009.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.020
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.001.  Processing halted.
+	processing begun of mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.021
+		mesh is an instance of :  monkeebespoke logo, Tshirts in Navi Mumbai.png.010.  Processing halted.
 	processing begun of mesh:  canteen window.168
 		mesh is an instance of :  canteen window.166.  Processing halted.
 	processing begun of mesh:  canteen window.169
@@ -4081,6 +4281,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.145
 	writing mesh:  Plane.153
 	writing mesh:  Plane.163
+	writing mesh:  enthusia_logo
+	writing mesh:  Plane.166
 	writing mesh:  court
 	writing mesh:  floor
 	writing mesh:  floor.001
@@ -4296,6 +4498,19 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  Plane.070
 	writing mesh:  Cube.148
 	writing mesh:  Cube.149
+	writing mesh:  Asset 1-50
+	writing mesh:  Asset 2-50
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.002
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.003
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.004
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.005
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.006
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.007
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.008
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.009
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.001
+	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.010
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 14.8377 secs
+elapsed time:  0 min, 15.8069 secs

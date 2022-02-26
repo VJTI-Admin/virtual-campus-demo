@@ -1,0 +1,464 @@
+Exporter version: 2.93.4, Blender version: 2.93.5
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Work\WebDev\Babylon\test9\
+			processing texture kloppenheim_06_1k
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of skeleton:  metarig, id:  0
+		processing begun of bone:  spine, index:  0
+		processing begun of bone:  spine.001, index:  1
+		processing begun of bone:  spine.002, index:  2
+		processing begun of bone:  spine.003, index:  3
+		processing begun of bone:  spine.004, index:  4
+		processing begun of bone:  spine.005, index:  5
+		processing begun of bone:  spine.006, index:  6
+		processing begun of bone:  shoulder.L, index:  7
+		processing begun of bone:  upper_arm.L, index:  8
+		processing begun of bone:  forearm.L, index:  9
+		processing begun of bone:  hand.L, index:  10
+		processing begun of bone:  shoulder.R, index:  11
+		processing begun of bone:  upper_arm.R, index:  12
+		processing begun of bone:  forearm.R, index:  13
+		processing begun of bone:  hand.R, index:  14
+		processing begun of bone:  breast.L, index:  15
+		processing begun of bone:  breast.R, index:  16
+		processing begun of bone:  pelvis.L, index:  17
+		processing begun of bone:  pelvis.R, index:  18
+		processing begun of bone:  thigh.L, index:  19
+		processing begun of bone:  shin.L, index:  20
+		processing begun of bone:  foot.L, index:  21
+		processing begun of bone:  toe.L, index:  22
+		processing begun of bone:  heel.02.L, index:  23
+		processing begun of bone:  thigh.R, index:  24
+		processing begun of bone:  shin.R, index:  25
+		processing begun of bone:  foot.R, index:  26
+		processing begun of bone:  toe.R, index:  27
+		processing begun of bone:  heel.02.R, index:  28
+	processing begun of skeleton:  metarig.001, id:  1
+		processing begun of bone:  spine, index:  0
+		processing begun of bone:  spine.001, index:  1
+		processing begun of bone:  spine.002, index:  2
+		processing begun of bone:  spine.003, index:  3
+		processing begun of bone:  spine.004, index:  4
+		processing begun of bone:  spine.005, index:  5
+		processing begun of bone:  spine.006, index:  6
+		processing begun of bone:  shoulder.L, index:  7
+		processing begun of bone:  upper_arm.L, index:  8
+		processing begun of bone:  forearm.L, index:  9
+		processing begun of bone:  hand.L, index:  10
+		processing begun of bone:  shoulder.R, index:  11
+		processing begun of bone:  upper_arm.R, index:  12
+		processing begun of bone:  forearm.R, index:  13
+		processing begun of bone:  hand.R, index:  14
+		processing begun of bone:  breast.L, index:  15
+		processing begun of bone:  breast.R, index:  16
+		processing begun of bone:  pelvis.L, index:  17
+		processing begun of bone:  pelvis.R, index:  18
+		processing begun of bone:  thigh.L, index:  19
+		processing begun of bone:  shin.L, index:  20
+		processing begun of bone:  foot.L, index:  21
+		processing begun of bone:  toe.L, index:  22
+		processing begun of bone:  heel.02.L, index:  23
+		processing begun of bone:  thigh.R, index:  24
+		processing begun of bone:  shin.R, index:  25
+		processing begun of bone:  foot.R, index:  26
+		processing begun of bone:  toe.R, index:  27
+		processing begun of bone:  heel.02.R, index:  28
+	processing begun of skeleton:  metarig.002, id:  2
+		processing begun of bone:  spine, index:  0
+		processing begun of bone:  spine.001, index:  1
+		processing begun of bone:  spine.002, index:  2
+		processing begun of bone:  spine.003, index:  3
+		processing begun of bone:  spine.004, index:  4
+		processing begun of bone:  spine.005, index:  5
+		processing begun of bone:  spine.006, index:  6
+		processing begun of bone:  shoulder.L, index:  7
+		processing begun of bone:  upper_arm.L, index:  8
+		processing begun of bone:  forearm.L, index:  9
+		processing begun of bone:  hand.L, index:  10
+		processing begun of bone:  shoulder.R, index:  11
+		processing begun of bone:  upper_arm.R, index:  12
+		processing begun of bone:  forearm.R, index:  13
+		processing begun of bone:  hand.R, index:  14
+		processing begun of bone:  breast.L, index:  15
+		processing begun of bone:  breast.R, index:  16
+		processing begun of bone:  pelvis.L, index:  17
+		processing begun of bone:  pelvis.R, index:  18
+		processing begun of bone:  thigh.L, index:  19
+		processing begun of bone:  shin.L, index:  20
+		processing begun of bone:  foot.L, index:  21
+		processing begun of bone:  toe.L, index:  22
+		processing begun of bone:  heel.02.L, index:  23
+		processing begun of bone:  thigh.R, index:  24
+		processing begun of bone:  shin.R, index:  25
+		processing begun of bone:  foot.R, index:  26
+		processing begun of bone:  toe.R, index:  27
+		processing begun of bone:  heel.02.R, index:  28
+	processing begun of node:  Empty
+	processing begun of node:  Empty.001
+	processing begun of mesh:  back wall.002
+		processing begun of material:  canteen wall
+			processing texture canteen_wall_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture canteen_wall_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  849
+		num normals        :  849
+		num tangents       :  0
+		num uvs            :  1698
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  358
+	processing begun of mesh:  Cube.111
+		processing begun of material:  temp trans
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  Plane.131
+		processing begun of material:  canteen floor
+			processing texture canteen_floor_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture canteen_floor_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  partition
+		processing begun of material:  canteen wall
+		registered as also a user of material:  canteen wall
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  back wall.003
+		processing begun of material:  canteen wall
+		registered as also a user of material:  canteen wall
+		num positions      :  754
+		num normals        :  754
+		num tangents       :  0
+		num uvs            :  1508
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  320
+	processing begun of mesh:  Plane.001
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  hand washing area
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  partition.001
+		processing begun of material:  canteen wall
+		registered as also a user of material:  canteen wall
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  back wall.004
+		processing begun of material:  canteen wall highlights
+			processing texture canteen_wall_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture canteen_wall_highlights_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  back wall.001
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.006
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.005
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.007
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.009
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.008
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.010
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.011
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.012
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  back wall.013
+		mesh is an instance of :  back wall.004.  Processing halted.
+	processing begun of mesh:  ceiling
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  ceiling.002
+		processing begun of material:  canteen wall
+		registered as also a user of material:  canteen wall
+		num positions      :  146
+		num normals        :  146
+		num tangents       :  0
+		num uvs            :  292
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  56
+	processing begun of mesh:  ceiling.001
+		mesh is an instance of :  ceiling.002.  Processing halted.
+	processing begun of mesh:  ceiling.003
+		mesh is an instance of :  ceiling.002.  Processing halted.
+	processing begun of mesh:  ceiling.004
+		mesh is an instance of :  ceiling.002.  Processing halted.
+	processing begun of mesh:  Cube
+		processing begun of material:  canteen wood
+		processing begun of material:  blue top
+			processing texture canteen_wood_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture canteen_wood_basecolor
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  metallicTexture, mapped using: "UVMap"
+			processing texture canteen_floor_occlusion_roughness_metal
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+		processing begun of multimaterial:  canteen.Multimaterial#0
+		num positions      :  267
+		num normals        :  267
+		num tangents       :  0
+		num uvs            :  534
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cube.008
+		processing begun of material:  canteen wood
+		registered as also a user of material:  canteen wood
+		num positions      :  269
+		num normals        :  269
+		num tangents       :  0
+		num uvs            :  538
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cube.001
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.002
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.003
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.004
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.005
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.006
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.007
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.009
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.020
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.021
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.022
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.023
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.024
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.025
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.026
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.027
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.028
+		mesh is an instance of :  Cube.  Processing halted.
+	processing begun of mesh:  Cube.029
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.030
+		mesh is an instance of :  Cube.008.  Processing halted.
+	processing begun of mesh:  Cube.042
+		processing begun of material:  canteen wood
+		processing begun of material:  temp trans
+		registered as also a user of material:  canteen wood
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  canteen.Multimaterial#1
+		num positions      :  442
+		num normals        :  442
+		num tangents       :  0
+		num uvs            :  884
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  296
+	processing begun of mesh:  Cube.039
+		mesh is an instance of :  Cube.042.  Processing halted.
+	processing begun of mesh:  Cube.040
+		mesh is an instance of :  Cube.042.  Processing halted.
+	processing begun of mesh:  canteen window.140
+		processing begun of material:  temp trans
+		processing begun of material:  window backing
+		registered as also a user of material:  temp trans
+		processing begun of multimaterial:  canteen.Multimaterial#2
+		num positions      :  427
+		num normals        :  427
+		num tangents       :  0
+		num uvs            :  854
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  214
+	processing begun of mesh:  canteen window.001
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.002
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.003
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.004
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.005
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.006
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.007
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.008
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.009
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.010
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.011
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.012
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.013
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.014
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.015
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.016
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.017
+		mesh is an instance of :  canteen window.140.  Processing halted.
+	processing begun of mesh:  canteen window.018
+		processing begun of material:  temp trans
+		processing begun of material:  window backing
+		registered as also a user of material:  temp trans
+		registered as also a user of material:  window backing
+		processing begun of multimaterial:  canteen.Multimaterial#3
+		num positions      :  428
+		num normals        :  428
+		num tangents       :  0
+		num uvs            :  856
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  212
+	processing begun of mesh:  canteen window.019
+		processing begun of material:  canteen wall highlights
+		registered as also a user of material:  canteen wall highlights
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  canteen window.020
+		mesh is an instance of :  canteen window.018.  Processing halted.
+	processing begun of mesh:  canteen window.021
+		mesh is an instance of :  canteen window.019.  Processing halted.
+	processing begun of mesh:  Plane.002
+		processing begun of material:  temp trans
+		registered as also a user of material:  temp trans
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  model1.003
+		processing begun of material:  chairs
+		num positions      :  35940
+		num normals        :  35940
+		num tangents       :  143760
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26571
+	processing begun of mesh:  model1.001
+		mesh is an instance of :  model1.003.  Processing halted.
+========= Writing of JSON file started =========
+	writing mesh:  back wall.002
+	writing mesh:  Cube.111
+	writing mesh:  Plane.131
+	writing mesh:  partition
+	writing mesh:  back wall.003
+	writing mesh:  Plane.001
+	writing mesh:  hand washing area
+	writing mesh:  partition.001
+	writing mesh:  back wall.004
+	writing mesh:  ceiling
+	writing mesh:  ceiling.002
+	writing mesh:  Cube
+	writing mesh:  Cube.008
+	writing mesh:  Cube.042
+	writing mesh:  canteen window.140
+	writing mesh:  canteen window.018
+	writing mesh:  canteen window.019
+	writing mesh:  Plane.002
+	writing mesh:  model1.003
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 2.2105 secs
