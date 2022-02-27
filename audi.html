@@ -138,7 +138,8 @@
             //camera.ellipsoidOffset = new BABYLON.Vector3(0,1.0,0);
             //goes up, character gests shorter
 
-
+            
+            var link_audi = "https://www.google.com/search?client=firefox-b-d&q=python+floor";
 
             //ACTIONS
             scene.meshes.forEach(function(m) {
@@ -147,6 +148,7 @@
                 if (m.name.startsWith("button")){
                     if (m.name=="button"){
                         test_mesh = m;
+                        make_button(test_mesh, link_audi);
                     }
                     
                     
@@ -161,24 +163,20 @@
 
             //document.write(test_mesh.name);
 
-            //JOIN MEETING
-            test_mesh.actionManager = new BABYLON.ActionManager(scene);
-            test_mesh.actionManager.registerAction(
+            //MAKING IT A FUNCTION: mesh, link
+            function make_button(mesh, link){
+                mesh.actionManager = new BABYLON.ActionManager(scene);
+                mesh.actionManager.registerAction(
                 new BABYLON.ExecuteCodeAction(
                     BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
                     function NewTab() {
                         
                         window.open(
-                          "https://us02web.zoom.us/j/87374887406?pwd=VE5zVlpkTEMzSEp4RmxnSHROZ0FMZz09", "_blank"); //https://zoom.us/
+                          link, "_blank"); //https://zoom.us/
                     }
                 )
             );
-
-
-
-
-
-
+            }
 
 
 
