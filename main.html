@@ -130,6 +130,11 @@
 
 
 
+            //LINKS:
+            var link_quad = "https://www.tutorialspoint.com/how-to-show-numpy-2d-array-as-grayscale-image-in-jupyter-notebook";
+            
+            
+
             //ACTIONS
             scene.meshes.forEach(function(m) {
                 //document.write(m.name);
@@ -137,13 +142,17 @@
                 if (m.name.startsWith("button")){
                     if (m.name=="button"){
                         test_mesh = m;
+                        make_button(test_mesh, link_quad);
+
                     }
                     else if (m.name=="button_audi" ){
                         audi_entrance = m;
+                        make_button(audi_entrance, "./audi.html");
                     }
                     
                     else if (m.name=="button_dep" ){
                         dep_entrance = m;
+                        make_button(dep_entrance, "./dep.html");
                     }
                     
                     m.isPickable = true;
@@ -157,57 +166,26 @@
 
             //document.write(test_mesh.name);
 
-            //JOIN MEETING
-            test_mesh.actionManager = new BABYLON.ActionManager(scene);
-            test_mesh.actionManager.registerAction(
+
+            //MAKING IT A FUNCTION: mesh, link
+            function make_button(mesh, link){
+                mesh.actionManager = new BABYLON.ActionManager(scene);
+                mesh.actionManager.registerAction(
                 new BABYLON.ExecuteCodeAction(
                     BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
                     function NewTab() {
                         
                         window.open(
-                          "https://zoom.us/", "_blank"); //https://zoom.us/
+                          link, "_blank"); //https://zoom.us/
                     }
                 )
             );
-
-            
-            //ENTER AUDI
-            audi_entrance.actionManager = new BABYLON.ActionManager(scene);
-            audi_entrance.actionManager.registerAction(
-                new BABYLON.ExecuteCodeAction(
-                    BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
-                    function NewTab() {
-                        
-                        window.open(
-                          "/audi.html", "_blank"); //https://zoom.us/
-                    }
-                )
-            );
-
-
-            //ENTER DEP
-            dep_entrance.actionManager = new BABYLON.ActionManager(scene);
-            dep_entrance.actionManager.registerAction(
-                new BABYLON.ExecuteCodeAction(
-                    BABYLON.ActionManager.OnPickTrigger, //OnDoublePickTrigger //OnPickTrigger
-                    function NewTab() {
-                        
-                        window.open(
-                          "/dep.html", "_blank"); //https://zoom.us/
-                    }
-                )
-            );
-
-
-            
+            }
 
 
             drawLogos();
 
             //var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
-
-            
-
 
 
             // Enable Collisions
