@@ -9,8 +9,8 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  D:\Work\WebDev\Babylon\test9\
-			processing texture venice_sunset_2k
+		Texture directory   :  D:\Work\WebDev\Babylon\test10\
+			processing env texture environment.env
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently enabled collection
 	processing begun of mesh:  Text
@@ -2287,10 +2287,10 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	processing begun of mesh:  back wall.001
 		processing begun of material:  cream main building
 		registered as also a user of material:  cream main building
-		num positions      :  722
-		num normals        :  722
+		num positions      :  726
+		num normals        :  726
 		num tangents       :  0
-		num uvs            :  1444
+		num uvs            :  1452
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  320
@@ -3181,7 +3181,7 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 		processing begun of material:  Plant alpha 1
 			processing texture Plant_alpha_1
 				WARNING: Exception during copy:
-					[Errno 13] Permission denied: 'D:\\Work\\WebDev\\Babylon\\test9\\Plant alpha 1.png'
+					[Errno 13] Permission denied: 'D:\\Work\\WebDev\\Babylon\\test10\\Plant alpha 1.png'
 				texture type:  diffuseTexture, mapped using: "UVMap"
 		num positions      :  120
 		num normals        :  120
@@ -4513,4 +4513,4 @@ Exporter version: 2.93.4, Blender version: 2.93.5
 	writing mesh:  monkeebespoke logo, Tshirts in Navi Mumbai.png.010
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 15.8069 secs
+elapsed time:  0 min, 16.0098 secs
